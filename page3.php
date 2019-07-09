@@ -15,9 +15,11 @@ $htmlStr = ob_get_contents();
 ob_end_clean();
 $fileName = date("YmdHis"),".txt";
 //shell_exec("touch"+$fileName);                             // 20010310;
-$output = `touch {$fileName} -v`;
-echo "<pre>$output</pre>";
+//$output = `touch {$fileName} -v`;
+echo "<pre>filename$fileName</pre>";
+$handle = fopen($fileName, 'w') or die('Cannot open file:  '.$fileName); //implicitly creates file
 file_put_contents($fileName, $htmlStr);
+fclose($handle);
 echo "<pre>",shell_exec('ls -lart'),"</pre>";
 ?>
 
