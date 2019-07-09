@@ -1,4 +1,6 @@
 <?php
+// set the default timezone to use. Available since PHP 5.1
+date_default_timezone_set('UTC');
 ob_start();
 echo "<pre>",shell_exec('ls -lart'),"</pre>";
 
