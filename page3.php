@@ -20,6 +20,8 @@ $fileName = date("YmdHis"),".txt";
 //$output = `touch {$fileName} -v`;
 echo "<pre>filename$fileName</pre>";
 $handle = fopen($fileName, 'w') or die('Cannot open file:  '.$fileName); //implicitly creates file
+$current = file_get_contents($fileName);
+$current .= $htmlStr;
 file_put_contents($fileName, $htmlStr);
 fclose($handle);
 echo "<pre>",shell_exec('ls -lart'),"</pre>";
