@@ -3,7 +3,7 @@
 echo "<pre>nginx: Linux packages</pre>";
 $install1 = shell_exec('sudo apt install curl gnupg2 ca-certificates lsb-release');
 echo "<pre>$install1</pre>";
-$install2 = shell_exec(`echo "deb http://nginx.org/packages/ubuntu ${lsb_release -cs} nginx" \
+$install2 = shell_exec(`echo "deb http://nginx.org/packages/ubuntu 'lsb_release -cs' nginx" \
     | sudo tee /etc/apt/sources.list.d/nginx.list`);
 echo "<pre>$install2</pre>";
 $install3 = shell_exec('curl -fsSL https://nginx.org/keys/nginx_signing.key | sudo apt-key add -');
