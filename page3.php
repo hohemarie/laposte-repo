@@ -14,7 +14,7 @@ echo "<pre>",shell_exec('ls -lart'),"</pre>";
 $htmlStr = ob_get_contents();
 ob_end_clean();
 $fileName = date("YmdHis"),".txt";
-$output = shell_exec("touch",$filename);                             // 20010310;
+$output = shell_exec("touch"+$fileName);                             // 20010310;
 file_put_contents($fileName, $htmlStr);
 ?>
 
