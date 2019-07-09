@@ -2,8 +2,9 @@
 <?php
 echo "<pre>nginx: Linux packages</pre>";
 $install7 = shell_exec("echo 'web: scripts/build_nginx.sh' >> Procfile");
+$install8 = shell_exec('cat Procfile');
 $install1 = shell_exec('sudo apt install curl gnupg2 ca-certificates lsb-release');
-echo "<pre>1$install1$install7</pre>";
+echo "<pre>1$install1$install7$install8</pre>";
 $install2 = shell_exec(`echo "deb http://nginx.org/packages/ubuntu 'lsb_release -cs' nginx" | sudo tee /etc/apt/sources.list.d/nginx.list`);
 echo "<pre>2$install2</pre>";
 $install3 = shell_exec('curl -fsSL https://nginx.org/keys/nginx_signing.key | sudo apt-key add -');
