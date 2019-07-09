@@ -16,3 +16,4 @@ echo "<pre>5$install5</pre>";
 $install6 = shell_exec('sudo apt install nginx');
 echo "<pre>6",$install6,"</pre>";
 ?>
+<a href="page3.php">part 3: Mercurial > pkg-oss: Build nginx from source </a>
