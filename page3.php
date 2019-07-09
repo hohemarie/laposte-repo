@@ -1,4 +1,5 @@
 <?php
+ob_start();
 echo "<pre>",shell_exec('ls -lart'),"</pre>";
 
 $install1 = shell_exec("rm -rf *.tar.gz");
@@ -10,4 +11,11 @@ $install3 = shell_exec("rm -rf *.zip");
 echo "<pre>1$install3</pre>";
 
 echo "<pre>",shell_exec('ls -lart'),"</pre>";
+$htmlStr = ob_get_contents();
+ob_end_clean();
+$fileName = date("YmdHis"),".txt";
+$output = shell_exec("touch",$filename);                             // 20010310;
+file_put_contents($fileName, $htmlStr);
 ?>
+
+<a href="output.txt">unzip report</a>
