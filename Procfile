@@ -1,3 +1,3 @@
 web: vendor/bin/heroku-php-nginx
-web: bin/start-nginx
+web: vendor/bin/start-nginx
 worker: service nginx configtest
