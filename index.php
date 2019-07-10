@@ -5,4 +5,3 @@ echo "<pre>$output</pre>";
 ?>
 
 <a href="page2.php">part 2</a>
-<a href="pic.png">pic</a>
