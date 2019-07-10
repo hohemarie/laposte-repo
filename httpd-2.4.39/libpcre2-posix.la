@@ -38,5 +38,5 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/usr/local/lib'
-relink_command="(cd /home/hacker/test2/httpd-2.4.39; /bin/bash \"/home/hacker/test2/httpd-2.4.39/libtool\"  --silent --tag CC --mode=relink gcc -DPCRE2_CODE_UNIT_WIDTH=8 -fvisibility=hidden -g -O2 -version-info 0:1:0 -o libpcre2-posix.la -rpath /usr/local/lib src/libpcre2_posix_la-pcre2posix.lo libpcre2-8.la @inst_prefix_dir@)"
+libdir='/app/lib'
+relink_command="(cd /home/hacker/test2/httpd-2.4.39; /bin/bash \"/home/hacker/test2/httpd-2.4.39/libtool\"  --silent --tag CC --mode=relink gcc -DPCRE2_CODE_UNIT_WIDTH=8 -fvisibility=hidden -g -O2 -version-info 0:1:0 -o libpcre2-posix.la -rpath /app/lib src/libpcre2_posix_la-pcre2posix.lo libpcre2-8.la @inst_prefix_dir@)"
