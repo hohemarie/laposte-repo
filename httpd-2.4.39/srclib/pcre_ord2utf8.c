@@ -6,7 +6,7 @@
 and semantics are as close as possible to those of the Perl 5 language.
 
                        Written by Philip Hazel
-           Copyright (c) 1997-2012 University of Cambridge
+           Copyright (c) 1997-2008 University of Cambridge
 
 -----------------------------------------------------------------------------
 Redistribution and use in source and binary forms, with or without
@@ -45,49 +45,42 @@ character value into a UTF8 string. */
 #include "config.h"
 #endif
 
-#define COMPILE_PCRE8
-
 #include "pcre_internal.h"
+
 
 /*************************************************
 *       Convert character value to UTF-8         *
 *************************************************/
 
-/* This function takes an integer value in the range 0 - 0x10ffff
-and encodes it as a UTF-8 character in 1 to 4 pcre_uchars.
+/* This function takes an integer value in the range 0 - 0x7fffffff
+and encodes it as a UTF-8 character in 0 to 6 bytes.
 
 Arguments:
   cvalue     the character value
-  buffer     pointer to buffer for result - at least 6 pcre_uchars long
+  buffer     pointer to buffer for result - at least 6 bytes long
 
 Returns:     number of characters placed in the buffer
 */
 
-unsigned
 int
-PRIV(ord2utf)(pcre_uint32 cvalue, pcre_uchar *buffer)
+_pcre_ord2utf8(int cvalue, uschar *buffer)
 {
-#ifdef SUPPORT_UTF
-
+#ifdef SUPPORT_UTF8
 register int i, j;
-
-for (i = 0; i < PRIV(utf8_table1_size); i++)
-  if ((int)cvalue <= PRIV(utf8_table1)[i]) break;
+for (i = 0; i < _pcre_utf8_table1_size; i++)
+  if (cvalue <= _pcre_utf8_table1[i]) break;
 buffer += i;
 for (j = i; j > 0; j--)
  {
  *buffer-- = 0x80 | (cvalue & 0x3f);
  cvalue >>= 6;
  }
-*buffer = PRIV(utf8_table2)[i] | cvalue;
+*buffer = _pcre_utf8_table2[i] | cvalue;
 return i + 1;
-
 #else
-
 (void)(cvalue);  /* Keep compiler happy; this function won't ever be */
-(void)(buffer);  /* called when SUPPORT_UTF is not defined. */
+(void)(buffer);  /* called when SUPPORT_UTF8 is not defined. */
 return 0;
-
 #endif
 }
 

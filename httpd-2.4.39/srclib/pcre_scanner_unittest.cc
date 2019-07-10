@@ -37,7 +37,6 @@
 #endif
 
 #include <stdio.h>
-#include <string.h>      /* for strchr */
 #include <string>
 #include <vector>
 
@@ -57,7 +56,6 @@
 } while (0)
 
 using std::vector;
-using std::string;
 using pcrecpp::StringPiece;
 using pcrecpp::Scanner;
 
@@ -108,11 +106,11 @@ static void TestScanner() {
   CHECK_EQ(comments[2].as_string(), " /* and here is gamma */\n");
   comments.resize(0);
 
-  s.GetComments(0, (int)(strchr(input, '/') - input), &comments);
+  s.GetComments(0, strchr(input, '/') - input, &comments);
   CHECK_EQ(comments.size(), 0);
   comments.resize(0);
 
-  s.GetComments((int)(strchr(input, '/') - input - 1), sizeof(input),
+  s.GetComments(strchr(input, '/') - input - 1, sizeof(input),
                 &comments);
   CHECK_EQ(comments.size(), 3);
   CHECK_EQ(comments[0].as_string(), " // this sets alpha\n");
@@ -120,8 +118,8 @@ static void TestScanner() {
   CHECK_EQ(comments[2].as_string(), " /* and here is gamma */\n");
   comments.resize(0);
 
-  s.GetComments((int)(strchr(input, '/') - input - 1),
-                (int)(strchr(input + 1, '\n') - input + 1), &comments);
+  s.GetComments(strchr(input, '/') - input - 1,
+                strchr(input + 1, '\n') - input + 1, &comments);
   CHECK_EQ(comments.size(), 1);
   CHECK_EQ(comments[0].as_string(), " // this sets alpha\n");
   comments.resize(0);
@@ -150,8 +148,6 @@ static void TestBigComment() {
 //       small stack size
 
 int main(int argc, char** argv) {
-  (void)argc;
-  (void)argv;
   TestScanner();
   TestBigComment();
 

@@ -24,7 +24,8 @@
   }                                                     \
 } while (0)
 
-using std::string;
+using std::map;
+using std::make_pair;
 using pcrecpp::StringPiece;
 
 static void CheckSTLComparator() {
@@ -36,13 +37,12 @@ static void CheckSTLComparator() {
   StringPiece p2(s2);
   StringPiece p3(s3);
 
-  typedef std::map<StringPiece, int> TestMap;
+  typedef map<StringPiece, int> TestMap;
   TestMap map;
 
-  map.insert(std::make_pair(p1, 0));
-  map.insert(std::make_pair(p2, 1));
-  map.insert(std::make_pair(p3, 2));
-
+  map.insert(make_pair(p1, 0));
+  map.insert(make_pair(p2, 1));
+  map.insert(make_pair(p3, 2));
   CHECK(map.size() == 3);
 
   TestMap::const_iterator iter = map.begin();
@@ -143,8 +143,6 @@ static void CheckComparisonOperators() {
 }
 
 int main(int argc, char** argv) {
-  (void)argc;
-  (void)argv;
   CheckComparisonOperators();
   CheckSTLComparator();
 

@@ -1,12 +1,12 @@
 # Package Information for pkg-config
 
-prefix=/home/hacker/test2/httpd-2.4.39/srclib
+prefix=/app
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
 
 Name: libpcrecpp
 Description: PCRECPP - C++ wrapper for PCRE
-Version: 8.43
+Version: 8.00
 Libs: -L${libdir} -lpcre -lpcrecpp
 Cflags: -I${includedir} 

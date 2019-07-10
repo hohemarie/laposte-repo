@@ -1,31 +1,11 @@
 #!/bin/sh
 
-prefix=/home/hacker/test2/httpd-2.4.39/srclib
+prefix=/app
 exec_prefix=${prefix}
 exec_prefix_set=no
 
-cflags="[--cflags]"
-
-if test yes = yes ; then
-  libs="[--libs-cpp]"
-else
-  libs=
-fi
-
-if test no = yes ; then
-  libs="[--libs16] $libs"
-fi
-
-if test no = yes ; then
-  libs="[--libs32] $libs"
-fi
-
-if test yes = yes ; then
-  libs="[--libs] [--libs-posix] $libs"
-  cflags="$cflags [--cflags-posix]"
-fi
-
-usage="Usage: pcre-config [--prefix] [--exec-prefix] [--version] $libs $cflags"
+usage="\
+Usage: pcre-config [--prefix] [--exec-prefix] [--version] [--libs] [--libs-posix] [--cflags] [--cflags-posix]"
 
 if test $# -eq 0; then
       echo "${usage}" 1>&2
@@ -41,11 +21,6 @@ case `uname -s` in
   libR=" -Wl,-R${exec_prefix}/lib"
   ;;
 esac
-
-libS=
-if test ${exec_prefix}/lib != /usr/lib ; then
-  libS=-L${exec_prefix}/lib
-fi
 
 while test $# -gt 0; do
   case "$1" in
@@ -71,58 +46,19 @@ while test $# -gt 0; do
       echo $exec_prefix
       ;;
     --version)
-      echo 8.43
+      echo 8.00
       ;;
-    --cflags)
+    --cflags | --cflags-posix)
       if test ${prefix}/include != /usr/include ; then
         includes=-I${prefix}/include
       fi
       echo $includes 
       ;;
-    --cflags-posix)
-      if test yes = yes ; then
-        if test ${prefix}/include != /usr/include ; then
-          includes=-I${prefix}/include
-        fi
-        echo $includes 
-      else
-        echo "${usage}" 1>&2
-      fi
-      ;;
     --libs-posix)
-      if test yes = yes ; then
-        echo $libS$libR -lpcreposix -lpcre
-      else
-        echo "${usage}" 1>&2
-      fi
+      echo -L${exec_prefix}/lib$libR -lpcreposix -lpcre
       ;;
     --libs)
-      if test yes = yes ; then
-        echo $libS$libR -lpcre
-      else
-        echo "${usage}" 1>&2
-      fi
-      ;;
-    --libs16)
-      if test no = yes ; then
-        echo $libS$libR -lpcre16
-      else
-        echo "${usage}" 1>&2
-      fi
-      ;;
-    --libs32)
-      if test no = yes ; then
-        echo $libS$libR -lpcre32
-      else
-        echo "${usage}" 1>&2
-      fi
-      ;;
-    --libs-cpp)
-      if test yes = yes ; then
-        echo $libS$libR -lpcrecpp -lpcre
-      else
-        echo "${usage}" 1>&2
-      fi
+      echo -L${exec_prefix}/lib$libR -lpcre
       ;;
     *)
       echo "${usage}" 1>&2

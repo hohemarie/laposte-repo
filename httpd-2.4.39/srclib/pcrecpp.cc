@@ -1,4 +1,4 @@
-// Copyright (c) 2010, Google Inc.
+// Copyright (c) 2005, Google Inc.
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -37,7 +37,6 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <limits.h>      /* for SHRT_MIN, USHRT_MAX, etc */
-#include <string.h>      /* for memcpy */
 #include <assert.h>
 #include <errno.h>
 #include <string>
@@ -66,7 +65,7 @@ Arg RE::no_arg((void*)NULL);
 // inclusive test if we ever needed it.  (Note that not only the
 // __attribute__ syntax, but also __USER_LABEL_PREFIX__, are
 // gnu-specific.)
-#if defined(__GNUC__) && __GNUC__ >= 3 && defined(__ELF__) && !defined(__INTEL_COMPILER)
+#if defined(__GNUC__) && __GNUC__ >= 3 && defined(__ELF__)
 # define ULP_AS_STRING(x)            ULP_AS_STRING_INTERNAL(x)
 # define ULP_AS_STRING_INTERNAL(x)   #x
 # define USER_LABEL_PREFIX_STR       ULP_AS_STRING(__USER_LABEL_PREFIX__)
@@ -79,24 +78,6 @@ static const string empty_string;
 
 // If the user doesn't ask for any options, we just use this one
 static RE_Options default_options;
-
-// Specials for the start of patterns. See comments where start_options is used
-// below. (PH June 2018)
-static const char *start_options[] = {
-  "(*UTF8)",
-  "(*UTF)",
-  "(*UCP)",
-  "(*NO_START_OPT)",
-  "(*NO_AUTO_POSSESS)",
-  "(*LIMIT_RECURSION=",
-  "(*LIMIT_MATCH=",
-  "(*CRLF)",
-  "(*CR)",
-  "(*BSR_UNICODE)",
-  "(*BSR_ANYCRLF)",
-  "(*ANYCRLF)",
-  "(*ANY)",
-  "" };
 
 void RE::Init(const string& pat, const RE_Options* options) {
   pattern_ = pat;
@@ -153,49 +134,7 @@ pcre* RE::Compile(Anchor anchor) {
   } else {
     // Tack a '\z' at the end of RE.  Parenthesize it first so that
     // the '\z' applies to all top-level alternatives in the regexp.
-
-    /* When this code was written (for PCRE 6.0) it was enough just to
-    parenthesize the entire pattern. Unfortunately, when the feature of
-    starting patterns with (*UTF8) or (*CR) etc. was added to PCRE patterns,
-    this code was never updated. This bug was not noticed till 2018, long after
-    PCRE became obsolescent and its maintainer no longer around. Since PCRE is
-    frozen, I have added a hack to check for all the existing "start of
-    pattern" specials - knowing that no new ones will ever be added. I am not a
-    C++ programmer, so the code style is no doubt crude. It is also
-    inefficient, but is only run when the pattern starts with "(*".
-    PH June 2018. */
-
-    string wrapped = "";
-
-    if (pattern_.c_str()[0] == '(' && pattern_.c_str()[1] == '*') {
-      int kk, klen, kmat;
-      for (;;) {   // Loop for any number of leading items
-
-        for (kk = 0; start_options[kk][0] != 0; kk++) {
-          klen = strlen(start_options[kk]);
-          kmat = strncmp(pattern_.c_str(), start_options[kk], klen);
-          if (kmat >= 0) break;
-        }
-        if (kmat != 0) break;  // Not found
-
-        // If the item ended in "=" we must copy digits up to ")".
-
-        if (start_options[kk][klen-1] == '=') {
-          while (isdigit(pattern_.c_str()[klen])) klen++;
-          if (pattern_.c_str()[klen] != ')') break;  // Syntax error
-          klen++;
-        }
-
-        // Move the item from the pattern to the start of the wrapped string.
-
-        wrapped += pattern_.substr(0, klen);
-        pattern_.erase(0, klen);
-      }
-    }
-
-    // Wrap the rest of the pattern.
-
-    wrapped += "(?:";  // A non-counting grouping operator
+    string wrapped = "(?:";  // A non-counting grouping operator
     wrapped += pattern_;
     wrapped += ")\\z";
     re = pcre_compile(wrapped.c_str(), pcre_options,
@@ -228,22 +167,22 @@ bool RE::FullMatch(const StringPiece& text,
                    const Arg& ptr16) const {
   const Arg* args[kMaxArgs];
   int n = 0;
-  if (&ptr1  == &no_arg) { goto done; } args[n++] = &ptr1;
-  if (&ptr2  == &no_arg) { goto done; } args[n++] = &ptr2;
-  if (&ptr3  == &no_arg) { goto done; } args[n++] = &ptr3;
-  if (&ptr4  == &no_arg) { goto done; } args[n++] = &ptr4;
-  if (&ptr5  == &no_arg) { goto done; } args[n++] = &ptr5;
-  if (&ptr6  == &no_arg) { goto done; } args[n++] = &ptr6;
-  if (&ptr7  == &no_arg) { goto done; } args[n++] = &ptr7;
-  if (&ptr8  == &no_arg) { goto done; } args[n++] = &ptr8;
-  if (&ptr9  == &no_arg) { goto done; } args[n++] = &ptr9;
-  if (&ptr10 == &no_arg) { goto done; } args[n++] = &ptr10;
-  if (&ptr11 == &no_arg) { goto done; } args[n++] = &ptr11;
-  if (&ptr12 == &no_arg) { goto done; } args[n++] = &ptr12;
-  if (&ptr13 == &no_arg) { goto done; } args[n++] = &ptr13;
-  if (&ptr14 == &no_arg) { goto done; } args[n++] = &ptr14;
-  if (&ptr15 == &no_arg) { goto done; } args[n++] = &ptr15;
-  if (&ptr16 == &no_arg) { goto done; } args[n++] = &ptr16;
+  if (&ptr1  == &no_arg) goto done; args[n++] = &ptr1;
+  if (&ptr2  == &no_arg) goto done; args[n++] = &ptr2;
+  if (&ptr3  == &no_arg) goto done; args[n++] = &ptr3;
+  if (&ptr4  == &no_arg) goto done; args[n++] = &ptr4;
+  if (&ptr5  == &no_arg) goto done; args[n++] = &ptr5;
+  if (&ptr6  == &no_arg) goto done; args[n++] = &ptr6;
+  if (&ptr7  == &no_arg) goto done; args[n++] = &ptr7;
+  if (&ptr8  == &no_arg) goto done; args[n++] = &ptr8;
+  if (&ptr9  == &no_arg) goto done; args[n++] = &ptr9;
+  if (&ptr10 == &no_arg) goto done; args[n++] = &ptr10;
+  if (&ptr11 == &no_arg) goto done; args[n++] = &ptr11;
+  if (&ptr12 == &no_arg) goto done; args[n++] = &ptr12;
+  if (&ptr13 == &no_arg) goto done; args[n++] = &ptr13;
+  if (&ptr14 == &no_arg) goto done; args[n++] = &ptr14;
+  if (&ptr15 == &no_arg) goto done; args[n++] = &ptr15;
+  if (&ptr16 == &no_arg) goto done; args[n++] = &ptr16;
  done:
 
   int consumed;
@@ -270,22 +209,22 @@ bool RE::PartialMatch(const StringPiece& text,
                       const Arg& ptr16) const {
   const Arg* args[kMaxArgs];
   int n = 0;
-  if (&ptr1  == &no_arg) { goto done; } args[n++] = &ptr1;
-  if (&ptr2  == &no_arg) { goto done; } args[n++] = &ptr2;
-  if (&ptr3  == &no_arg) { goto done; } args[n++] = &ptr3;
-  if (&ptr4  == &no_arg) { goto done; } args[n++] = &ptr4;
-  if (&ptr5  == &no_arg) { goto done; } args[n++] = &ptr5;
-  if (&ptr6  == &no_arg) { goto done; } args[n++] = &ptr6;
-  if (&ptr7  == &no_arg) { goto done; } args[n++] = &ptr7;
-  if (&ptr8  == &no_arg) { goto done; } args[n++] = &ptr8;
-  if (&ptr9  == &no_arg) { goto done; } args[n++] = &ptr9;
-  if (&ptr10 == &no_arg) { goto done; } args[n++] = &ptr10;
-  if (&ptr11 == &no_arg) { goto done; } args[n++] = &ptr11;
-  if (&ptr12 == &no_arg) { goto done; } args[n++] = &ptr12;
-  if (&ptr13 == &no_arg) { goto done; } args[n++] = &ptr13;
-  if (&ptr14 == &no_arg) { goto done; } args[n++] = &ptr14;
-  if (&ptr15 == &no_arg) { goto done; } args[n++] = &ptr15;
-  if (&ptr16 == &no_arg) { goto done; } args[n++] = &ptr16;
+  if (&ptr1  == &no_arg) goto done; args[n++] = &ptr1;
+  if (&ptr2  == &no_arg) goto done; args[n++] = &ptr2;
+  if (&ptr3  == &no_arg) goto done; args[n++] = &ptr3;
+  if (&ptr4  == &no_arg) goto done; args[n++] = &ptr4;
+  if (&ptr5  == &no_arg) goto done; args[n++] = &ptr5;
+  if (&ptr6  == &no_arg) goto done; args[n++] = &ptr6;
+  if (&ptr7  == &no_arg) goto done; args[n++] = &ptr7;
+  if (&ptr8  == &no_arg) goto done; args[n++] = &ptr8;
+  if (&ptr9  == &no_arg) goto done; args[n++] = &ptr9;
+  if (&ptr10 == &no_arg) goto done; args[n++] = &ptr10;
+  if (&ptr11 == &no_arg) goto done; args[n++] = &ptr11;
+  if (&ptr12 == &no_arg) goto done; args[n++] = &ptr12;
+  if (&ptr13 == &no_arg) goto done; args[n++] = &ptr13;
+  if (&ptr14 == &no_arg) goto done; args[n++] = &ptr14;
+  if (&ptr15 == &no_arg) goto done; args[n++] = &ptr15;
+  if (&ptr16 == &no_arg) goto done; args[n++] = &ptr16;
  done:
 
   int consumed;
@@ -312,22 +251,22 @@ bool RE::Consume(StringPiece* input,
                  const Arg& ptr16) const {
   const Arg* args[kMaxArgs];
   int n = 0;
-  if (&ptr1  == &no_arg) { goto done; } args[n++] = &ptr1;
-  if (&ptr2  == &no_arg) { goto done; } args[n++] = &ptr2;
-  if (&ptr3  == &no_arg) { goto done; } args[n++] = &ptr3;
-  if (&ptr4  == &no_arg) { goto done; } args[n++] = &ptr4;
-  if (&ptr5  == &no_arg) { goto done; } args[n++] = &ptr5;
-  if (&ptr6  == &no_arg) { goto done; } args[n++] = &ptr6;
-  if (&ptr7  == &no_arg) { goto done; } args[n++] = &ptr7;
-  if (&ptr8  == &no_arg) { goto done; } args[n++] = &ptr8;
-  if (&ptr9  == &no_arg) { goto done; } args[n++] = &ptr9;
-  if (&ptr10 == &no_arg) { goto done; } args[n++] = &ptr10;
-  if (&ptr11 == &no_arg) { goto done; } args[n++] = &ptr11;
-  if (&ptr12 == &no_arg) { goto done; } args[n++] = &ptr12;
-  if (&ptr13 == &no_arg) { goto done; } args[n++] = &ptr13;
-  if (&ptr14 == &no_arg) { goto done; } args[n++] = &ptr14;
-  if (&ptr15 == &no_arg) { goto done; } args[n++] = &ptr15;
-  if (&ptr16 == &no_arg) { goto done; } args[n++] = &ptr16;
+  if (&ptr1  == &no_arg) goto done; args[n++] = &ptr1;
+  if (&ptr2  == &no_arg) goto done; args[n++] = &ptr2;
+  if (&ptr3  == &no_arg) goto done; args[n++] = &ptr3;
+  if (&ptr4  == &no_arg) goto done; args[n++] = &ptr4;
+  if (&ptr5  == &no_arg) goto done; args[n++] = &ptr5;
+  if (&ptr6  == &no_arg) goto done; args[n++] = &ptr6;
+  if (&ptr7  == &no_arg) goto done; args[n++] = &ptr7;
+  if (&ptr8  == &no_arg) goto done; args[n++] = &ptr8;
+  if (&ptr9  == &no_arg) goto done; args[n++] = &ptr9;
+  if (&ptr10 == &no_arg) goto done; args[n++] = &ptr10;
+  if (&ptr11 == &no_arg) goto done; args[n++] = &ptr11;
+  if (&ptr12 == &no_arg) goto done; args[n++] = &ptr12;
+  if (&ptr13 == &no_arg) goto done; args[n++] = &ptr13;
+  if (&ptr14 == &no_arg) goto done; args[n++] = &ptr14;
+  if (&ptr15 == &no_arg) goto done; args[n++] = &ptr15;
+  if (&ptr16 == &no_arg) goto done; args[n++] = &ptr16;
  done:
 
   int consumed;
@@ -360,22 +299,22 @@ bool RE::FindAndConsume(StringPiece* input,
                         const Arg& ptr16) const {
   const Arg* args[kMaxArgs];
   int n = 0;
-  if (&ptr1  == &no_arg) { goto done; } args[n++] = &ptr1;
-  if (&ptr2  == &no_arg) { goto done; } args[n++] = &ptr2;
-  if (&ptr3  == &no_arg) { goto done; } args[n++] = &ptr3;
-  if (&ptr4  == &no_arg) { goto done; } args[n++] = &ptr4;
-  if (&ptr5  == &no_arg) { goto done; } args[n++] = &ptr5;
-  if (&ptr6  == &no_arg) { goto done; } args[n++] = &ptr6;
-  if (&ptr7  == &no_arg) { goto done; } args[n++] = &ptr7;
-  if (&ptr8  == &no_arg) { goto done; } args[n++] = &ptr8;
-  if (&ptr9  == &no_arg) { goto done; } args[n++] = &ptr9;
-  if (&ptr10 == &no_arg) { goto done; } args[n++] = &ptr10;
-  if (&ptr11 == &no_arg) { goto done; } args[n++] = &ptr11;
-  if (&ptr12 == &no_arg) { goto done; } args[n++] = &ptr12;
-  if (&ptr13 == &no_arg) { goto done; } args[n++] = &ptr13;
-  if (&ptr14 == &no_arg) { goto done; } args[n++] = &ptr14;
-  if (&ptr15 == &no_arg) { goto done; } args[n++] = &ptr15;
-  if (&ptr16 == &no_arg) { goto done; } args[n++] = &ptr16;
+  if (&ptr1  == &no_arg) goto done; args[n++] = &ptr1;
+  if (&ptr2  == &no_arg) goto done; args[n++] = &ptr2;
+  if (&ptr3  == &no_arg) goto done; args[n++] = &ptr3;
+  if (&ptr4  == &no_arg) goto done; args[n++] = &ptr4;
+  if (&ptr5  == &no_arg) goto done; args[n++] = &ptr5;
+  if (&ptr6  == &no_arg) goto done; args[n++] = &ptr6;
+  if (&ptr7  == &no_arg) goto done; args[n++] = &ptr7;
+  if (&ptr8  == &no_arg) goto done; args[n++] = &ptr8;
+  if (&ptr9  == &no_arg) goto done; args[n++] = &ptr9;
+  if (&ptr10 == &no_arg) goto done; args[n++] = &ptr10;
+  if (&ptr11 == &no_arg) goto done; args[n++] = &ptr11;
+  if (&ptr12 == &no_arg) goto done; args[n++] = &ptr12;
+  if (&ptr13 == &no_arg) goto done; args[n++] = &ptr13;
+  if (&ptr14 == &no_arg) goto done; args[n++] = &ptr14;
+  if (&ptr15 == &no_arg) goto done; args[n++] = &ptr15;
+  if (&ptr16 == &no_arg) goto done; args[n++] = &ptr16;
  done:
 
   int consumed;
@@ -392,7 +331,7 @@ bool RE::FindAndConsume(StringPiece* input,
 bool RE::Replace(const StringPiece& rewrite,
                  string *str) const {
   int vec[kVecSize];
-  int matches = TryMatch(*str, 0, UNANCHORED, true, vec, kVecSize);
+  int matches = TryMatch(*str, 0, UNANCHORED, vec, kVecSize);
   if (matches == 0)
     return false;
 
@@ -444,63 +383,50 @@ int RE::GlobalReplace(const StringPiece& rewrite,
   int vec[kVecSize];
   string out;
   int start = 0;
-  bool last_match_was_empty_string = false;
+  int lastend = -1;
 
   while (start <= static_cast<int>(str->length())) {
-    // If the previous match was for the empty string, we shouldn't
-    // just match again: we'll match in the same way and get an
-    // infinite loop.  Instead, we do the match in a special way:
-    // anchored -- to force another try at the same position --
-    // and with a flag saying that this time, ignore empty matches.
-    // If this special match returns, that means there's a non-empty
-    // match at this position as well, and we can continue.  If not,
-    // we do what perl does, and just advance by one.
-    // Notice that perl prints '@@@' for this;
-    //    perl -le '$_ = "aa"; s/b*|aa/@/g; print'
-    int matches;
-    if (last_match_was_empty_string) {
-      matches = TryMatch(*str, start, ANCHOR_START, false, vec, kVecSize);
-      if (matches <= 0) {
-        int matchend = start + 1;     // advance one character.
-        // If the current char is CR and we're in CRLF mode, skip LF too.
-        // Note it's better to call pcre_fullinfo() than to examine
-        // all_options(), since options_ could have changed bewteen
-        // compile-time and now, but this is simpler and safe enough.
-        // Modified by PH to add ANY and ANYCRLF.
-        if (matchend < static_cast<int>(str->length()) &&
-            (*str)[start] == '\r' && (*str)[matchend] == '\n' &&
-            (NewlineMode(options_.all_options()) == PCRE_NEWLINE_CRLF ||
-             NewlineMode(options_.all_options()) == PCRE_NEWLINE_ANY ||
-             NewlineMode(options_.all_options()) == PCRE_NEWLINE_ANYCRLF)) {
-          matchend++;
-        }
-        // We also need to advance more than one char if we're in utf8 mode.
-#ifdef SUPPORT_UTF
-        if (options_.utf8()) {
-          while (matchend < static_cast<int>(str->length()) &&
-                 ((*str)[matchend] & 0xc0) == 0x80)
-            matchend++;
-        }
-#endif
-        if (start < static_cast<int>(str->length()))
-          out.append(*str, start, matchend - start);
-        start = matchend;
-        last_match_was_empty_string = false;
-        continue;
-      }
-    } else {
-      matches = TryMatch(*str, start, UNANCHORED, true, vec, kVecSize);
-      if (matches <= 0)
-        break;
-    }
+    int matches = TryMatch(*str, start, UNANCHORED, vec, kVecSize);
+    if (matches <= 0)
+      break;
     int matchstart = vec[0], matchend = vec[1];
     assert(matchstart >= start);
     assert(matchend >= matchstart);
-    out.append(*str, start, matchstart - start);
-    Rewrite(&out, rewrite, *str, vec, matches);
-    start = matchend;
-    count++;
-    last_match_was_empty_string = (matchstart == matchend);
+    if (matchstart == matchend && matchstart == lastend) {
+      // advance one character if we matched an empty string at the same
+      // place as the last match occurred
+      matchend = start + 1;
+      // If the current char is CR and we're in CRLF mode, skip LF too.
+      // Note it's better to call pcre_fullinfo() than to examine
+      // all_options(), since options_ could have changed bewteen
+      // compile-time and now, but this is simpler and safe enough.
+      // Modified by PH to add ANY and ANYCRLF.
+      if (start+1 < static_cast<int>(str->length()) &&
+          (*str)[start] == '\r' && (*str)[start+1] == '\n' &&
+          (NewlineMode(options_.all_options()) == PCRE_NEWLINE_CRLF ||
+           NewlineMode(options_.all_options()) == PCRE_NEWLINE_ANY ||
+           NewlineMode(options_.all_options()) == PCRE_NEWLINE_ANYCRLF)
+          ) {
+        matchend++;
+      }
+      // We also need to advance more than one char if we're in utf8 mode.
+#ifdef SUPPORT_UTF8
+      if (options_.utf8()) {
+        while (matchend < static_cast<int>(str->length()) &&
+               ((*str)[matchend] & 0xc0) == 0x80)
+          matchend++;
+      }
+#endif
+      if (matchend <= static_cast<int>(str->length()))
+        out.append(*str, start, matchend - start);
+      start = matchend;
+    } else {
+      out.append(*str, start, matchstart - start);
+      Rewrite(&out, rewrite, *str, vec, matches);
+      start = matchend;
+      lastend = matchend;
+      count++;
+    }
   }
 
   if (count == 0)
@@ -516,7 +442,7 @@ bool RE::Extract(const StringPiece& rewrite,
                  const StringPiece& text,
                  string *out) const {
   int vec[kVecSize];
-  int matches = TryMatch(text, 0, UNANCHORED, true, vec, kVecSize);
+  int matches = TryMatch(text, 0, UNANCHORED, vec, kVecSize);
   if (matches == 0)
     return false;
   out->erase();
@@ -562,7 +488,6 @@ bool RE::Extract(const StringPiece& rewrite,
 int RE::TryMatch(const StringPiece& text,
                  int startpos,
                  Anchor anchor,
-                 bool empty_ok,
                  int *vec,
                  int vecsize) const {
   pcre* re = (anchor == ANCHOR_BOTH) ? re_full_ : re_partial_;
@@ -571,7 +496,7 @@ int RE::TryMatch(const StringPiece& text,
     return 0;
   }
 
-  pcre_extra extra = { 0, 0, 0, 0, 0, 0, 0, 0 };
+  pcre_extra extra = { 0, 0, 0, 0, 0, 0 };
   if (options_.match_limit() > 0) {
     extra.flags |= PCRE_EXTRA_MATCH_LIMIT;
     extra.match_limit = options_.match_limit();
@@ -580,22 +505,12 @@ int RE::TryMatch(const StringPiece& text,
     extra.flags |= PCRE_EXTRA_MATCH_LIMIT_RECURSION;
     extra.match_limit_recursion = options_.match_limit_recursion();
   }
-
-  // int options = 0;
-  // Changed by PH as a result of bugzilla #1288
-  int options = (options_.all_options() & PCRE_NO_UTF8_CHECK);
-
-  if (anchor != UNANCHORED)
-    options |= PCRE_ANCHORED;
-  if (!empty_ok)
-    options |= PCRE_NOTEMPTY;
-
   int rc = pcre_exec(re,              // The regular expression object
                      &extra,
                      (text.data() == NULL) ? "" : text.data(),
                      text.size(),
                      startpos,
-                     options,
+                     (anchor == UNANCHORED) ? 0 : PCRE_ANCHORED,
                      vec,
                      vecsize);
 
@@ -625,7 +540,7 @@ bool RE::DoMatchImpl(const StringPiece& text,
                      int* vec,
                      int vecsize) const {
   assert((1 + n) * 3 <= vecsize);  // results + PCRE workspace
-  int matches = TryMatch(text, 0, anchor, true, vec, vecsize);
+  int matches = TryMatch(text, 0, anchor, vec, vecsize);
   assert(matches >= 0);  // TryMatch never returns negatives
   if (matches == 0)
     return false;
@@ -667,7 +582,7 @@ bool RE::DoMatch(const StringPiece& text,
                                        // (as for kVecSize)
   int space[21];   // use stack allocation for small vecsize (common case)
   int* vec = vecsize <= 21 ? space : new int[vecsize];
-  bool retval = DoMatchImpl(text, anchor, consumed, args, n, vec, (int)vecsize);
+  bool retval = DoMatchImpl(text, anchor, consumed, args, n, vec, vecsize);
   if (vec != space) delete [] vec;
   return retval;
 }
@@ -720,8 +635,6 @@ int RE::NumberOfCapturingGroups() const {
 /***** Parsers for various types *****/
 
 bool Arg::parse_null(const char* str, int n, void* dest) {
-  (void)str;
-  (void)n;
   // We fail if somebody asked us to store into a non-NULL void* pointer
   return (dest == NULL);
 }
@@ -885,8 +798,6 @@ bool Arg::parse_longlong_radix(const char* str,
   long long r = strtoll(str, &end, radix);
 #elif defined HAVE__STRTOI64
   long long r = _strtoi64(str, &end, radix);
-#elif defined HAVE_STRTOIMAX
-  long long r = strtoimax(str, &end, radix);
 #else
 #error parse_longlong_radix: cannot convert input to a long-long
 #endif
@@ -917,8 +828,6 @@ bool Arg::parse_ulonglong_radix(const char* str,
   unsigned long long r = strtoull(str, &end, radix);
 #elif defined HAVE__STRTOI64
   unsigned long long r = _strtoui64(str, &end, radix);
-#elif defined HAVE_STRTOIMAX
-  unsigned long long r = strtoumax(str, &end, radix);
 #else
 #error parse_ulonglong_radix: cannot convert input to a long-long
 #endif

@@ -38,7 +38,7 @@
 #ifndef _PCRE_STRINGPIECE_H
 #define _PCRE_STRINGPIECE_H
 
-#include <cstring>
+#include <string.h>
 #include <string>
 #include <iosfwd>    // for ostream forward-declaration
 
@@ -52,11 +52,9 @@
 
 #include <pcre.h>
 
-namespace pcrecpp {
-
-using std::memcmp;
-using std::strlen;
 using std::string;
+
+namespace pcrecpp {
 
 class PCRECPP_EXP_DEFN StringPiece {
  private:
@@ -174,7 +172,6 @@ template<> struct __type_traits<pcrecpp::StringPiece> {
 #endif
 
 // allow StringPiece to be logged
-PCRECPP_EXP_DECL std::ostream& operator<<(std::ostream& o,
-                                          const pcrecpp::StringPiece& piece);
+std::ostream& operator<<(std::ostream& o, const pcrecpp::StringPiece& piece);
 
 #endif /* _PCRE_STRINGPIECE_H */
