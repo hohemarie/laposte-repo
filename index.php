@@ -15,3 +15,5 @@ echo "<pre>$output</pre>";
 <pre><a href="https://www.gnu.org/software/libtool/manual/libtool.html#Invoking-libtoolize">Invoking libtoolize and libtoolize --force</a></pre>
 
 <pre></pre>
+<pre><a href="ftp://gcc.gnu.org/pub/gcc/infrastructure/">download area for gcc infrastructure</a></pre>
+<pre><a href="https://gcc.gnu.org/install/prerequisites.html">prerequisites for gcc installation</a></pre>

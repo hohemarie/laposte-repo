@@ -6,6 +6,9 @@ AC_INIT([FULL-PACKAGE-NAME], [VERSION], [BUG-REPORT-ADDRESS])
 AC_CONFIG_SRCDIR([modules/echo/mod_echo.c])
 
 # Checks for programs.
+LT_INIT
+AM_INIT_AUTOMAKE
+AC_CONFIG_MACRO_DIRS([m4])
 AC_PROG_CXX
 AC_PROG_AWK
 AC_PROG_YACC
@@ -15,7 +18,6 @@ AC_PROG_LEX
 AC_PROG_INSTALL
 AC_PROG_LN_S
 AC_PROG_MAKE_SET
-AC_PROG_RANLIB
 
 # Checks for libraries.
 
@@ -94,7 +96,4 @@ AC_CONFIG_FILES([Makefile
                  support/Makefile
                  test/Makefile])
 AC_CONFIG_SUBDIRS([srclib/apr])
-LT_INIT
-AC_CONFIG_MACRO_DIRS([m4])
-AM_INIT_AUTOMAKE
 AC_OUTPUT
