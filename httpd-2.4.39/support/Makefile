@@ -1,3 +1,8 @@
+top_srcdir   = /home/hacker/httpd-2.4.39
+top_builddir = /home/hacker/httpd-2.4.39
+srcdir       = /home/hacker/httpd-2.4.39/support
+builddir     = /home/hacker/httpd-2.4.39/support
+VPATH        = /home/hacker/httpd-2.4.39/support
 DISTCLEAN_TARGETS = apxs apachectl dbmmanage log_server_status \
 	logresolve.pl phf_abuse_log.cgi split-logfile envvars-std
 

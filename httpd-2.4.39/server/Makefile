@@ -1,3 +1,8 @@
+top_srcdir   = /home/hacker/httpd-2.4.39
+top_builddir = /home/hacker/httpd-2.4.39
+srcdir       = /home/hacker/httpd-2.4.39/server
+builddir     = /home/hacker/httpd-2.4.39/server
+VPATH        = /home/hacker/httpd-2.4.39/server
 
 CLEAN_TARGETS = gen_test_char test_char.h \
 	ApacheCoreOS2.def httpd.exp export_files \

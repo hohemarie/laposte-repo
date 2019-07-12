@@ -1,3 +1,8 @@
+top_srcdir   = /home/hacker/httpd-2.4.39
+top_builddir = /home/hacker/httpd-2.4.39
+srcdir       = /home/hacker/httpd-2.4.39/test
+builddir     = /home/hacker/httpd-2.4.39/test
+VPATH        = /home/hacker/httpd-2.4.39/test
 
 # no targets: we don't want to build anything by default. if you want the
 # test programs, then "make test"
