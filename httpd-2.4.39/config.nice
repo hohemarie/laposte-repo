@@ -1,0 +1,13 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="pgcc"; export CC
+CFLAGS="-O2"; export CFLAGS
+"./configure" \
+"--prefix=/sw/pkg/apache" \
+"--enable-ldap=shared" \
+"--enable-lua=shared" \
+"CC=pgcc" \
+"CFLAGS=-O2" \
+"$@"
