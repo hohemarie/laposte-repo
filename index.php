@@ -17,3 +17,5 @@ echo "<pre>$output</pre>";
 <pre></pre>
 <pre><a href="ftp://gcc.gnu.org/pub/gcc/infrastructure/">download area for gcc infrastructure</a></pre>
 <pre><a href="https://gcc.gnu.org/install/prerequisites.html">prerequisites for gcc installation</a></pre>
+<pre><a href="https://www.gnu.org/software/automake/manual/html_node/Unified-Parallel-C-Support.html">automake docs article about an error message I've got "configure: error: no Unified Parallel C compiler was found"</a></pre>
+

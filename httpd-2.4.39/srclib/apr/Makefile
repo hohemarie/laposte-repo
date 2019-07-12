@@ -209,7 +209,7 @@ AR = ar
 AUTOCONF = ${SHELL} /home/hacker/test2/httpd-2.4.39/missing autoconf
 AUTOHEADER = ${SHELL} /home/hacker/test2/httpd-2.4.39/missing autoheader
 AUTOMAKE = ${SHELL} /home/hacker/test2/httpd-2.4.39/missing automake-1.15
-AWK = mawk
+AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
 CFLAGS = -g -O2

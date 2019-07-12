@@ -44,11 +44,102 @@ PATH: /snap/bin
 ## Core tests. ##
 ## ----------- ##
 
+configure:2626: checking for a BSD-compatible install
+configure:2694: result: /usr/bin/install -c
+configure:2705: checking whether build environment is sane
+configure:2760: result: yes
+configure:2911: checking for a thread-safe mkdir -p
+configure:2950: result: /bin/mkdir -p
+configure:2957: checking for gawk
+configure:2973: found /usr/bin/gawk
+configure:2984: result: gawk
+configure:2995: checking whether make sets $(MAKE)
+configure:3017: result: yes
+configure:3046: checking whether make supports nested variables
+configure:3063: result: yes
+configure:3201: checking for style of include used by make
+configure:3229: result: GNU
+configure:3300: checking for gcc
+configure:3316: found /usr/bin/gcc
+configure:3327: result: gcc
+configure:3556: checking for C compiler version
+configure:3565: gcc --version >&5
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+configure:3576: $? = 0
+configure:3565: gcc -v >&5
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+configure:3576: $? = 0
+configure:3565: gcc -V >&5
+gcc: error: unrecognized command line option '-V'
+gcc: fatal error: no input files
+compilation terminated.
+configure:3576: $? = 1
+configure:3565: gcc -qversion >&5
+gcc: error: unrecognized command line option '-qversion'
+gcc: fatal error: no input files
+compilation terminated.
+configure:3576: $? = 1
+configure:3596: checking whether the C compiler works
+configure:3618: gcc    conftest.c  >&5
+configure:3622: $? = 0
+configure:3670: result: yes
+configure:3673: checking for C compiler default output file name
+configure:3675: result: a.out
+configure:3681: checking for suffix of executables
+configure:3688: gcc -o conftest    conftest.c  >&5
+configure:3692: $? = 0
+configure:3714: result: 
+configure:3736: checking whether we are cross compiling
+configure:3744: gcc -o conftest    conftest.c  >&5
+configure:3748: $? = 0
+configure:3755: ./conftest
+configure:3759: $? = 0
+configure:3774: result: no
+configure:3779: checking for suffix of object files
+configure:3801: gcc -c   conftest.c >&5
+configure:3805: $? = 0
+configure:3826: result: o
+configure:3830: checking whether we are using the GNU C compiler
+configure:3849: gcc -c   conftest.c >&5
+configure:3849: $? = 0
+configure:3858: result: yes
+configure:3867: checking whether gcc accepts -g
+configure:3887: gcc -c -g  conftest.c >&5
+configure:3887: $? = 0
+configure:3928: result: yes
+configure:3945: checking for gcc option to accept ISO C89
+configure:4008: gcc  -c -g -O2  conftest.c >&5
+configure:4008: $? = 0
+configure:4021: result: none needed
+configure:4046: checking whether gcc understands -c and -o together
+configure:4068: gcc -c conftest.c -o conftest2.o
+configure:4071: $? = 0
+configure:4068: gcc -c conftest.c -o conftest2.o
+configure:4071: $? = 0
+configure:4083: result: yes
+configure:4102: checking dependency style of gcc
+configure:4213: result: gcc3
+configure:4277: checking for upcc
+configure:4307: result: no
+configure:4277: checking for upc
+configure:4307: result: no
+configure:4329: error: no Unified Parallel C compiler was found
 
 ## ---------------- ##
 ## Cache variables. ##
 ## ---------------- ##
 
+ac_cv_c_compiler_gnu=yes
 ac_cv_env_CCC_set=
 ac_cv_env_CCC_value=
 ac_cv_env_CC_set=
@@ -59,6 +150,8 @@ ac_cv_env_CPPFLAGS_set=
 ac_cv_env_CPPFLAGS_value=
 ac_cv_env_CPP_set=
 ac_cv_env_CPP_value=
+ac_cv_env_CXXCPP_set=
+ac_cv_env_CXXCPP_value=
 ac_cv_env_CXXFLAGS_set=
 ac_cv_env_CXXFLAGS_value=
 ac_cv_env_CXX_set=
@@ -67,6 +160,12 @@ ac_cv_env_LDFLAGS_set=
 ac_cv_env_LDFLAGS_value=
 ac_cv_env_LIBS_set=
 ac_cv_env_LIBS_value=
+ac_cv_env_LT_SYS_LIBRARY_PATH_set=
+ac_cv_env_LT_SYS_LIBRARY_PATH_value=
+ac_cv_env_UPCFLAGS_set=
+ac_cv_env_UPCFLAGS_value=
+ac_cv_env_UPC_set=
+ac_cv_env_UPC_value=
 ac_cv_env_YACC_set=
 ac_cv_env_YACC_value=
 ac_cv_env_YFLAGS_set=
@@ -77,38 +176,85 @@ ac_cv_env_host_alias_set=
 ac_cv_env_host_alias_value=
 ac_cv_env_target_alias_set=
 ac_cv_env_target_alias_value=
+ac_cv_objext=o
+ac_cv_path_install='/usr/bin/install -c'
+ac_cv_path_mkdir=/bin/mkdir
+ac_cv_prog_AWK=gawk
+ac_cv_prog_ac_ct_CC=gcc
+ac_cv_prog_cc_c89=
+ac_cv_prog_cc_g=yes
+ac_cv_prog_make_make_set=yes
+am_cv_CC_dependencies_compiler_type=gcc3
+am_cv_make_support_nested_variables=yes
+am_cv_prog_cc_c_o=yes
 
 ## ----------------- ##
 ## Output variables. ##
 ## ----------------- ##
 
+ACLOCAL='${SHELL} /home/hacker/test2/httpd-2.4.39/missing aclocal-1.15'
 ALLOCA=''
-AWK=''
-CC=''
-CFLAGS=''
+AMDEPBACKSLASH='\'
+AMDEP_FALSE='#'
+AMDEP_TRUE=''
+AMTAR='$${TAR-tar}'
+AM_BACKSLASH='\'
+AM_DEFAULT_V='$(AM_DEFAULT_VERBOSITY)'
+AM_DEFAULT_VERBOSITY='1'
+AM_V='$(V)'
+AR=''
+AUTOCONF='${SHELL} /home/hacker/test2/httpd-2.4.39/missing autoconf'
+AUTOHEADER='${SHELL} /home/hacker/test2/httpd-2.4.39/missing autoheader'
+AUTOMAKE='${SHELL} /home/hacker/test2/httpd-2.4.39/missing automake-1.15'
+AWK='gawk'
+CC='gcc'
+CCDEPMODE='depmode=gcc3'
+CFLAGS='-g -O2'
 CPP=''
 CPPFLAGS=''
 CXX=''
+CXXCPP=''
+CXXDEPMODE=''
 CXXFLAGS=''
+CYGPATH_W='echo'
 DEFS=''
+DEPDIR='.deps'
+DLLTOOL=''
+DSYMUTIL=''
+DUMPBIN=''
 ECHO_C=''
 ECHO_N='-n'
 ECHO_T=''
 EGREP=''
 EXEEXT=''
+FGREP=''
 GREP=''
-INSTALL_DATA=''
-INSTALL_PROGRAM=''
-INSTALL_SCRIPT=''
+INSTALL_DATA='${INSTALL} -m 644'
+INSTALL_PROGRAM='${INSTALL}'
+INSTALL_SCRIPT='${INSTALL}'
+INSTALL_STRIP_PROGRAM='$(install_sh) -c -s'
+LD=''
 LDFLAGS=''
 LEX=''
 LEXLIB=''
 LEX_OUTPUT_ROOT=''
 LIBOBJS=''
 LIBS=''
+LIBTOOL=''
+LIPO=''
 LN_S=''
 LTLIBOBJS=''
-OBJEXT=''
+LT_SYS_LIBRARY_PATH=''
+MAKEINFO='${SHELL} /home/hacker/test2/httpd-2.4.39/missing makeinfo'
+MANIFEST_TOOL=''
+MKDIR_P='/bin/mkdir -p'
+NM=''
+NMEDIT=''
+OBJDUMP=''
+OBJEXT='o'
+OTOOL64=''
+OTOOL=''
+PACKAGE='full-package-name'
 PACKAGE_BUGREPORT='BUG-REPORT-ADDRESS'
 PACKAGE_NAME='FULL-PACKAGE-NAME'
 PACKAGE_STRING='FULL-PACKAGE-NAME VERSION'
@@ -117,28 +263,63 @@ PACKAGE_URL=''
 PACKAGE_VERSION='VERSION'
 PATH_SEPARATOR=':'
 POW_LIB=''
+RANLIB=''
+SED=''
 SET_MAKE=''
 SHELL='/bin/bash'
+STRIP=''
+UPC=':'
+UPCDEPMODE=''
+UPCFLAGS=''
+VERSION='VERSION'
 YACC=''
 YFLAGS=''
-ac_ct_CC=''
+ac_ct_AR=''
+ac_ct_CC='gcc'
 ac_ct_CXX=''
+ac_ct_DUMPBIN=''
+ac_ct_UPC=''
+am__EXEEXT_FALSE=''
+am__EXEEXT_TRUE=''
+am__fastdepCC_FALSE='#'
+am__fastdepCC_TRUE=''
+am__fastdepCXX_FALSE=''
+am__fastdepCXX_TRUE=''
+am__fastdepUPC_FALSE=''
+am__fastdepUPC_TRUE=''
+am__include='include'
+am__isrc=''
+am__leading_dot='.'
+am__nodep='_no'
+am__quote=''
+am__tar='$${TAR-tar} chof - "$$tardir"'
+am__untar='$${TAR-tar} xf -'
 bindir='${exec_prefix}/bin'
+build=''
 build_alias=''
+build_cpu=''
+build_os=''
+build_vendor=''
 datadir='${datarootdir}'
 datarootdir='${prefix}/share'
 docdir='${datarootdir}/doc/${PACKAGE_TARNAME}'
 dvidir='${docdir}'
 exec_prefix='NONE'
+host=''
 host_alias=''
+host_cpu=''
+host_os=''
+host_vendor=''
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
+install_sh='${SHELL} /home/hacker/test2/httpd-2.4.39/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'
 localstatedir='${prefix}/var'
 mandir='${datarootdir}/man'
+mkdir_p='$(MKDIR_P)'
 oldincludedir='/usr/include'
 pdfdir='${docdir}'
 prefix='NONE'
@@ -162,5 +343,7 @@ target_alias=''
 #define PACKAGE_STRING "FULL-PACKAGE-NAME VERSION"
 #define PACKAGE_BUGREPORT "BUG-REPORT-ADDRESS"
 #define PACKAGE_URL ""
+#define PACKAGE "full-package-name"
+#define VERSION "VERSION"
 
-configure: exit 2
+configure: exit 77

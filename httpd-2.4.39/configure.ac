@@ -1,14 +1,12 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
-
-AC_PREREQ([2.69])
 AC_INIT([FULL-PACKAGE-NAME], [VERSION], [BUG-REPORT-ADDRESS])
 AC_CONFIG_SRCDIR([modules/echo/mod_echo.c])
-
+AC_CONFIG_MACRO_DIRS([m4])
+AM_INIT_AUTOMAKE
+AM_PROG_UPC([upcc upc])
 # Checks for programs.
 LT_INIT
-AM_INIT_AUTOMAKE
-AC_CONFIG_MACRO_DIRS([m4])
 AC_PROG_CXX
 AC_PROG_AWK
 AC_PROG_YACC
