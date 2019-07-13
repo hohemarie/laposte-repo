@@ -2,7 +2,7 @@
 <?php
 $output = shell_exec('ls -lart');
 echo "<pre>$output</pre>";
-$gitlogoutput = shell_exec('git log');
+$gitlogoutput = shell_exec('heroku releases');
 echo "<pre>$gitlogoutput</pre>";
 ?>
 
