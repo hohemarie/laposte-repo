@@ -2,6 +2,8 @@
 <?php
 $output = shell_exec('ls -lart');
 echo "<pre>$output</pre>";
+$gitlogoutput = shell_exec('git log');
+echo "<pre>$gitlogoutput</pre>";
 ?>
 
 <a href="page2.php">part 2</a>
