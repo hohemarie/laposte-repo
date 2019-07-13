@@ -29,3 +29,8 @@ echo "<pre>$output</pre>";
 <li><a href="https://developer.twitter.com/en/docs/basics/getting-started#engagement">Measure how your Tweets or account are engaged with?</a></li>
 </ul>
 
+<pre><a href="https://marketingplatform.google.com/about/tag-manager-360/features/">Main features of Google's Website Tagging Technologies</a></pre>
+<pre><a href="https://developers.google.com/tag-manager/">developers' google tag manager docs page</a></pre>
+<pre>google+ post saying that Web integrations<a href="https://developers.google.com/+/integrations-shutdown">have stopped serving and this may have the potential to affecte website and/or functionality if no action is taken by website owners</a></pre>
+<pre>news saying that<a href="https://developers.google.com/+/api-shutdown">Legacy Google+ APIs have been shut down as of March 7, 2019. Changes to the shutdown plan have been made recently which may mitigate its effect on some developers.</a></pre>
+
