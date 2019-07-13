@@ -36,5 +36,15 @@ echo "<pre>$output</pre>";
 <pre><a href="https://lodash.com/custom-builds">lodash custom builds</a></pre>
 <pre><a href="https://lodash.com/docs/4.17.14">lodash docs with source code and npm package installation</a></pre>
 <pre><a href="https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html">include css, include js, set html, call the plugin, and the carousel is ready.</a></pre>
-<pre><a href="https://owlcarousel2.github.io/OwlCarousel2/demos/lazyLoad.html">don't forget to fill in the javascript and the html</a></pre>
+<pre><a href="https://owlcarousel2.github.io/OwlCarousel2/demos/lazyLoad.html">don't forget to fill in the javascript and the html of the carousel</a></pre>
+<pre><a href="https://www.actionscript-facile.com/documentation-swfobject-afficher-flash-page-html/article1214713.html">SWF non official doc 1</a></pre>
+<pre><a href="https://codes-sources.commentcamarche.net/faq/932-utilisation-de-swfobject">Wiki mediabox SWFObject</a></pre>
+<pre><a href="https://jqueryui.com/resources/download/jquery-ui-1.12.1.zip">jquery ui quick download stable release</a></pre>
+<pre><a href="https://jqueryui.com/download/">jquery ui custom download with download builder</a></pre>
+<pre><a href="https://webpack.js.org/guides/installation/">webpack installation</a></pre>
+<pre><a href="https://webpack.js.org/configuration/">webpack configuration</a></pre>
+<pre><a href="https://github.com/jquery/jquery-migrate">add jquery migrate</a></pre>
+<pre><a href="https://developers.facebook.com/products#publishing">faceboko publishing</a></pre>
+<pre><a href="https://developers.facebook.com/products#social-integrations">facebook social integrations</a></pre>
+<pre><a href="https://developers.facebook.com/products#social-integrations">facebook social presence</a></pre>
 
