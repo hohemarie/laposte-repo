@@ -33,4 +33,8 @@ echo "<pre>$output</pre>";
 <pre><a href="https://developers.google.com/tag-manager/">developers' google tag manager docs page</a></pre>
 <pre>google+ post saying that Web integrations<a href="https://developers.google.com/+/integrations-shutdown">have stopped serving and this may have the potential to affecte website and/or functionality if no action is taken by website owners</a></pre>
 <pre>news saying that<a href="https://developers.google.com/+/api-shutdown">Legacy Google+ APIs have been shut down as of March 7, 2019. Changes to the shutdown plan have been made recently which may mitigate its effect on some developers.</a></pre>
+<pre><a href="https://lodash.com/custom-builds">lodash custom builds</a></pre>
+<pre><a href="https://lodash.com/docs/4.17.14">lodash docs with source code and npm package installation</a></pre>
+<pre><a href="https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html">include css, include js, set html, call the plugin, and the carousel is ready.</a></pre>
+<pre><a href="https://owlcarousel2.github.io/OwlCarousel2/demos/lazyLoad.html">don't forget to fill in the javascript and the html</a></pre>
 
