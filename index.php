@@ -47,4 +47,5 @@ echo "<pre>$output</pre>";
 <pre><a href="https://developers.facebook.com/products#publishing">faceboko publishing</a></pre>
 <pre><a href="https://developers.facebook.com/products#social-integrations">facebook social integrations</a></pre>
 <pre><a href="https://developers.facebook.com/products#social-integrations">facebook social presence</a></pre>
+<pre><a href="https://www.sap.com/developer/trials-downloads/additional-downloads/social-integration-with-hybris-commerce-14525.html">social integration with hybris commerce</a></pre>
 
