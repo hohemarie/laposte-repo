@@ -19,4 +19,13 @@ echo "<pre>$output</pre>";
 <pre><a href="https://gcc.gnu.org/install/prerequisites.html">prerequisites for gcc installation</a></pre>
 <pre><a href="https://www.gnu.org/software/automake/manual/html_node/Unified-Parallel-C-Support.html">automake docs article about an error message I've got "configure: error: no Unified Parallel C compiler was found"</a></pre>
 <pre><a href="page3.html">a little front end to end the day...</a></pre>
+<h2><a id="get-started"></a>Get started with the Twitter developer platform</h2>
+<h3>What do you want to build?</h3>
+<a href="https://developer.twitter.com/en/docs/basics/getting-started#embed">Integrate Tweets into your app or website?</a>&nbsp;&nbsp;</li>
+<li>Add the ability to <a href="https://developer.twitter.com/en/docs/basics/getting-started#post-message">post Tweets or send Direct Messages</a> from your app or website?</li>
+<li><a href="https://developer.twitter.com/en/docs/basics/getting-started#ads">Target an audience and advertise on the Twitter network?</a></li>
+<li><a href="https://developer.twitter.com/en/docs/basics/getting-started#real-time">Listen in real-time for Tweets of interest?</a>&nbsp;</li>
+<li>Conduct historical research and <a href="https://developer.twitter.com/en/docs/basics/getting-started#historical">search from Twitter's massive archive of publicly-available Tweets</a> posted since March 2006?&nbsp;</li>
+<li><a href="https://developer.twitter.com/en/docs/basics/getting-started#engagement">Measure how your Tweets or account are engaged with?</a></li>
+</ul>
 
