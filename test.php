@@ -1,4 +1,4 @@
 <?php
-$cattext = shell_exec('cat test.txt');
+$cattext = utf8_encode(shell_exec('cat test.txt'));
 echo "<pre>$cattext</pre>";
 ?>
