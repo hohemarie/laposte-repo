@@ -103,5 +103,5 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://docs.appnexus.com/">App nexus documentation center</a></pre>
 <pre><a href="https://invest.xandr.com/login"> login here</a> to learn about appnexus products</pre>
 <pre>------------><a href="blind.html">click here</a> to try blind effect</pre>
-<a data-fancybox="gallery" href="big_1.jpg"><img src="wp_small.jpg"></a>
+<a data-fancybox="gallery" href="big_1.jpg"><img src="wp_small.png"></a>
 
