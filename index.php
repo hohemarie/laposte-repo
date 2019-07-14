@@ -68,3 +68,8 @@ echo "<pre>$output</pre>";
 <pre>Build or integrate workspace widgets</pre>
 <pre>You can integrate your application with the LiveEngage Agent Workspace using the <a href="https://developers.liveperson.com/agent-workspace-widget-sdk-overview.html">Agent Workspace Widget SDK</a>, which is a lightweight, client-side communication package.</pre>
 <pre>You can also use the <a href="https://developers.liveperson.com/engagement-window-widget-sdk-overview.html">Engagement Window Widget SDK</a> with the Agent Workspace Widget SDK. </pre>
+<pre>Everything about authentication with heroku cli, git on heroku bash with buildpacks.</pre>
+<pre><a href="https://elements.heroku.com/buildpacks/sectorlabs/heroku-buildpack-git-submodule">heroku git buildpack submodule</a></pre>
+<pre><a href="https://devcenter.heroku.com/articles/git#http-git-authentication">http git authentication</a></pre>
+<pre><a href="https://devcenter.heroku.com/articles/git#creating-a-heroku-remote">deploying with git</a></pre>
+<pre>ssh me@otherhost "cd repo && git log -n 10" <a href="https://stackoverflow.com/questions/1178389/browse-and-display-files-in-a-git-repo-without-cloning/27899008#27899008">git log without cloning</a></pre>
