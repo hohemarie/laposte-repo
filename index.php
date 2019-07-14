@@ -2,9 +2,8 @@
 <?php
 $output = shell_exec('ls -lart');
 echo "<pre>$output</pre>";
-shell_exec('heroku run bash');
-shell_exec('export HEROKU_API_KEY=356352cc-06a0-46ca-83e1-3fc6914e4649');
-//shell_exec('heroku login');
+//$herokulogin = shell_exec('heroku login');
+shell_exec('heroku login');
 //shell_exec('ssh -v git@heroku.com');
 $releasesoutput = shell_exec('heroku releases --app developer-test-123456958478956 -n 5');
 shell_exec('exit');
