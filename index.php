@@ -38,7 +38,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre>news saying that<a href="https://developers.google.com/+/api-shutdown">Legacy Google+ APIs have been shut down as of March 7, 2019. Changes to the shutdown plan have been made recently which may mitigate its effect on some developers.</a></pre>
 <pre><a href="https://lodash.com/custom-builds">lodash custom builds</a></pre>
 <pre><a href="https://lodash.com/docs/4.17.14">lodash docs with source code and npm package installation</a></pre>
-<pre><a href="https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html">include css, include js, set html, call the plugin, and the carousel is ready.</a></pre>
+<pre><a href="https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html">include css, include js, set html, call the plugin, and the carousel is ready.</a>------------> <a href="owl.html">owl example page</a></pre>
 <pre><a href="https://owlcarousel2.github.io/OwlCarousel2/demos/lazyLoad.html">don't forget to fill in the javascript and the html of the carousel</a></pre>
 <pre><a href="https://www.actionscript-facile.com/documentation-swfobject-afficher-flash-page-html/article1214713.html">SWF non official doc 1</a></pre>
 <pre><a href="https://codes-sources.commentcamarche.net/faq/932-utilisation-de-swfobject">Wiki mediabox SWFObject</a></pre>
@@ -96,3 +96,4 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://wiki.appnexus.com/display/industry/Welcome">introduction to online advertising, ad tech, and ad serving</a></pre>
 <pre><a href="https://html.spec.whatwg.org/multipage/parsing.html#unexpected-markup-in-tables">html standards unexpected markup in tables</a></pre>
 <table><b><tr><td>aaa</td></tr>bbb</table>ccc
+<pre><a href="https://docs.appnexus.com/">App nexus documentation center</a></pre>
