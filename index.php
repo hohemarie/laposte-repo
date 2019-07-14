@@ -73,3 +73,5 @@ echo "<pre>$output</pre>";
 <pre><a href="https://devcenter.heroku.com/articles/git#http-git-authentication">http git authentication</a></pre>
 <pre><a href="https://devcenter.heroku.com/articles/git#creating-a-heroku-remote">deploying with git</a></pre>
 <pre>ssh me@otherhost "cd repo && git log -n 10" <a href="https://stackoverflow.com/questions/1178389/browse-and-display-files-in-a-git-repo-without-cloning/27899008#27899008">git log without cloning</a></pre>
+<pre><a href="https://devcenter.heroku.com/articles/keys">heroku keys</a></pre>
+<pre><a href="http://www.compulsivecoders.com/tech/how-to-edit-a-file-on-heroku-dynos-using-nano-or-vim/">edit file heroku dynos vim</a></pre>
