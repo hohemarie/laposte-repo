@@ -2,11 +2,13 @@
 <?php
 $output = shell_exec('ls -lart');
 echo "<pre>$output</pre>";
-//$herokulogin = shell_exec('heroku login');
-shell_exec('heroku login');
-//shell_exec('ssh -v git@heroku.com');
+$herokulogin = shell_exec('heroku login');
+echo "<pre>$herokulogin</pre>";
+$herokurunbash = shell_exec('heroku run bash');
+echo "<pre>$herokurunbash</pre>";
+$sshconnected = shell_exec('ssh -v git@heroku.com');
+echo "<pre>$sshconnected</pre>";
 $releasesoutput = shell_exec('heroku releases --app developer-test-123456958478956 -n 5');
-shell_exec('exit');
 echo "<pre>$releasesoutput</pre>";
 echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format</pre>";
 ?>
