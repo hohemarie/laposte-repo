@@ -1,0 +1,6 @@
+<?php
+echo "<pre><a href='index.php'>back to home page</a></pre>";
+echo "<pre>my heroku releases</pre>";
+$authtoken = shell_exec('export HEROKU_API_KEY=356352cc-06a0-46ca-83e1-3fc6914e4649');
+echo "";
+?>

@@ -2,6 +2,10 @@
 <?php
 $output = shell_exec('ls -lart');
 echo "<pre>$output</pre>";
+$authtoken = shell_exec('export HEROKU_API_KEY=356352cc-06a0-46ca-83e1-3fc6914e4649');
+$releasesoutput = shell_exec('heroku releases --app developer-test-123456958478956 -n 5');
+echo "<pre>$releasesoutput</pre>";
+echo "<pre>detailed infos in<a href="releases.html">json</a> format of my heroku releases</pre>";
 ?>
 
 <a href="page2.php">part 2</a>
