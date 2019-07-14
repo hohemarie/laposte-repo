@@ -6,6 +6,10 @@ $releasesoutput = shell_exec('heroku releases --app developer-test-1234569584789
 echo "<pre>$releasesoutput</pre>";
 echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format</pre>";
 ?>
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 <a href="page2.php">part 2</a>
 <pre><a href="pic.png">pic</a></pre>
@@ -97,3 +101,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://html.spec.whatwg.org/multipage/parsing.html#unexpected-markup-in-tables">html standards unexpected markup in tables</a></pre>
 <table><b><tr><td>aaa</td></tr>bbb</table>ccc
 <pre><a href="https://docs.appnexus.com/">App nexus documentation center</a></pre>
+<pre><a href="https://invest.xandr.com/login"> login here</a> to learn about appnexus products</pre>
+<pre>------------><a href="blind.html">click here</a> to try blind effect</pre>
+<a data-fancybox="gallery" href="big_1.jpg"><img src="wp_small.jpg"></a>
+
