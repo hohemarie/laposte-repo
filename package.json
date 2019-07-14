@@ -1,0 +1,21 @@
+{
+  "name": "hackingproject",
+  "version": "1.0.0",
+  "description": "hacking project",
+  "main": "index.php",
+  "homepage":"https://developer-test-123456958478956.herokuapp.com/index.php",
+  "bugs": {
+    "url": "issues.php"
+  , "email":"hacker20190387468675@gmail.com"
+  },
+  "license": "(BSD-2-Clause or Apache-2.0)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hacking",
+    "project",
+    "heroku"
+  ],
+  "author": "hacker"
+}
