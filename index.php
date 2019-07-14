@@ -88,3 +88,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://www.whoishostingthis.com/compare/ssh-access/">shh access hosting"></a></pre>
 <pre><a href="https://support.rackspace.com/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os/">connect to server using ssh</a></pre>
 <pre><a href="https://mediatemple.net/community/products/dv/204403684/connecting-via-ssh-to-your-server">connect via ssh to your server</a></pre>
+<pre><a href="https://api.jqueryui.com/blind-effect/">jquery ui blind effect script</a></pre>
+<pre><a href="https://api.jqueryui.com/category/effects/">jquery user interface effects category</a></pre>
+<pre><a href="https://api.jqueryui.com/theming/css-framework/">class names used by jquery ui</a></pre>
+<pre><a href="https://github.com/webpack/enhanced-resolve/releases/tag/v5.0.0-beta.0">download page for enhanced resolve webpack</a> go to assets(2) and choose tar gz or zip to decompress files</pre>
