@@ -75,3 +75,8 @@ echo "<pre>$output</pre>";
 <pre>ssh me@otherhost "cd repo && git log -n 10" <a href="https://stackoverflow.com/questions/1178389/browse-and-display-files-in-a-git-repo-without-cloning/27899008#27899008">git log without cloning</a></pre>
 <pre><a href="https://devcenter.heroku.com/articles/keys">heroku keys</a></pre>
 <pre><a href="http://www.compulsivecoders.com/tech/how-to-edit-a-file-on-heroku-dynos-using-nano-or-vim/">edit file heroku dynos vim</a></pre>
+<pre>some proposals to error in terminal "ssh PTY allocation request failed on channel 0 shell request failed on channel 0" in heroku bash</pre>
+<pre><a href="http://www.devloprog.org/admin/2012/02/27/ssh-pty-allocation-request-failed-on-channel-0/">sol 1</a> (did not work for me)</pre>
+<pre><a href="https://dwaves.org/2018/10/23/be-careful-with-sshd-config-how-to-fix-pty-allocation-request-failed-on-channel-0-permittty-yes-yes-yes/">sol 2</a>(contains info concerning PTY allocation, and the PermitTTY yes in sshd config)</pre>
+<pre><a href="https://www.freebsd.org/cgi/man.cgi?sshd_config(5)">sol 3</a>(sshd_config documentation)</pre>
+<pre><a href="https://www.linode.com/community/questions/17194/pty-allocation-error">sol 4</a>(someone solved pty allocation error with umount and mount on /dev/pts)</pre>
