@@ -80,3 +80,8 @@ echo "<pre>$output</pre>";
 <pre><a href="https://dwaves.org/2018/10/23/be-careful-with-sshd-config-how-to-fix-pty-allocation-request-failed-on-channel-0-permittty-yes-yes-yes/">sol 2</a>(contains info concerning PTY allocation, and the PermitTTY yes in sshd config)</pre>
 <pre><a href="https://www.freebsd.org/cgi/man.cgi?sshd_config(5)">sol 3</a>(sshd_config documentation)</pre>
 <pre><a href="https://www.linode.com/community/questions/17194/pty-allocation-error">sol 4</a>(someone solved pty allocation error with umount and mount on /dev/pts)</pre>
+<pre><a href="https://stackoverflow.com/questions/877103/git-log-without-cloning-the-repository">if you have shell access to the host</a></pre>
+<pre><a href="https://www.namecheap.com/support/knowledgebase/article.aspx/1016/89/how-to-access-a-hosting-account-via-ssh">access a hosting account via SSH</a></pre>
+<pre><a href="https://www.whoishostingthis.com/compare/ssh-access/">shh access hosting"></a></pre>
+<pre><a href="https://support.rackspace.com/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os/">connect to server using ssh</a></pre>
+<pre><a href="https://mediatemple.net/community/products/dv/204403684/connecting-via-ssh-to-your-server">connect via ssh to your server</a></pre>
