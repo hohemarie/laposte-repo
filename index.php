@@ -105,4 +105,8 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre>------------><a href="blind.html">click here</a> to try blind effect</pre>
 <a data-fancybox="gallery" href="big_1.jpg"><img src="wp_small.png"></a>
 <a data-fancybox="gallery" href="big_1.jpg"><img src="java_small.png"></a>
-
+<a data-fancybox="gallery" href="big_1.jpg"><img src="hybris_small.png"></a>
+<pre>Java et le navigateur chrome : <a href="https://www.java.com/fr/download/faq/chrome.xml">Chrome ne prend plus en charge NPAPI (technologie requise pour les applets Java)</a></pre>
+<pre><a href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=http%3A%2F%2Fsupport.google.com%2Ftagmanager%2Fanswer%2F6107167&flowName=GlifWebSignIn&flowEntry=ServiceLogin">sign in to google tag manager</a></pre>
+<pre><a href="https://developers.facebook.com/products/app-ads">fb app ads</a></pre>
+<pre><a href="https://developers.facebook.com/docs/app-events">fb app events</a></pre>
