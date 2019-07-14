@@ -48,6 +48,7 @@ echo "<pre>$output</pre>";
 <pre><a href="https://developers.facebook.com/products#social-integrations">facebook social integrations</a></pre>
 <pre><a href="https://developers.facebook.com/products#social-integrations">facebook social presence</a></pre>
 <pre><a href="https://www.sap.com/developer/trials-downloads/additional-downloads/social-integration-with-hybris-commerce-14525.html">social integration with hybris commerce</a></pre>
+<<<<<<< HEAD
 <pre><a href="https://www.java.com/fr/download/help/linux_install.xml">Comment télécharger et installer Java 32 bits pour Linux ?</a></pre>
 <pre><a href="https://help.ubuntu.com/community/Java">java ubuntu documentation</a></pre>
 <pre><a href="https://www.appnexus.com">I am a marketer, an agency, or a programmatic trader, and I am looking for Appnexus' DSP (AppNexus Programmable Platform)</a></pre>
@@ -58,3 +59,20 @@ echo "<pre>$output</pre>";
 <pre><a href="https://docs.microsoft.com/en-us/windows-server/">windows server documentation</pre>
 <pre><a href="https://handlebarsjs.com/">handle bars</pre>
 
+=======
+<pre><a href="https://www.appnexus.com/blog/appnexus-programmable-platform-open-beta">The AppNexus Programmable Platform Is In Open Beta</a></pre>
+<pre><a href="https://www.appnexus.com/blog/appnexus-programmable-platform-enters-open-beta">The AppNexus Programmable Platform Enters Open Beta</a></pre>
+<pre><a href="https://docs.microsoft.com/en-us/windows-server/">windows server documentation</a></pre>
+<pre><a href="https://handlebarsjs.com/">handle bars</a></pre>
+<pre>common use case of liveperson: Integrate LiveEngage with your native app with<a href="https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html">android</a>or<a href="https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html">iOS</a></pre>
+<pre>an other comme use case is Customize LiveEngage reports or create new ones,</pre>
+<pre>so some of the key use cases for you are:</pre>
+<pre>Retrieve up to 13 months of historical conversations, both metadata and content for a specific consumer using the <a href="https://developers.liveperson.com/consumer-messaging-history-api-overview.html">Consumer Messaging History API.</a></pre>
+<pre>Retrieve agent activity data per region and review agent utilization using the <a href="https://developers.liveperson.com/data-access-api-overview.html">Data Access API.</a></pre>
+<pre>Search, filter and keep copies of chat transcripts and related data, for example surveys, using the <a href="https://developers.liveperson.com/engagement-history-api-overview.html">Engagement History API.</a></pre>
+<pre>Retrieve the most up-to-date information available about contact center messaging interactions using the <a href="https://developers.liveperson.com/messaging-interactions-api-overview.html">Messaging Interactions API.</a></pre>
+<pre>Comply with the GDPR and permanently delete any personal data that the consumer requests to be deleted using the <a href="https://developers.liveperson.com/personal-data-deletion-api-overview.html">Personal Data Deletion API.</a></pre>
+<pre>Build or integrate workspace widgets</pre>
+<pre>You can integrate your application with the LiveEngage Agent Workspace using the <a href="https://developers.liveperson.com/agent-workspace-widget-sdk-overview.html">Agent Workspace Widget SDK</a>, which is a lightweight, client-side communication package.</pre>
+<pre>You can also use the <a href="https://developers.liveperson.com/engagement-window-widget-sdk-overview.html">Engagement Window Widget SDK</a> with the Agent Workspace Widget SDK. </pre>
+>>>>>>> 669606d8c1bbdada89de5b00d6210bd5edc7e82d
