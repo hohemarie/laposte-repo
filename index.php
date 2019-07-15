@@ -120,3 +120,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://lodash.com/docs/4.17.14#map">webpack usage lodash map</a></pre>
 <pre>For example, when<a href="https://webpack.js.org/configuration/resolve/">calling import 'lodash'</a> in ES2015, the resolve options can change where webpack goes to look for 'lodash' (see modules).</pre>
 <pre><a href="https://github.com/webpack-contrib/webpack-bundle-analyzer">webpack bundle analyzer</a></pre>
+<pre><a href="https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-quick-start.html">quick start guide android sdk liveperson</a></pre>
+<pre><a href="https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-quick-start.html">quick start iOS liveperson</a></pre>
+<pre><a href="https://guides.cocoapods.org/using/getting-started.html">cocoapods install rubyggems</a></pre>
+<pre><a href="https://github.com/swfobject/swfobject">swfobject</a></pre>
