@@ -124,3 +124,4 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-quick-start.html">quick start iOS liveperson</a></pre>
 <pre><a href="https://guides.cocoapods.org/using/getting-started.html">cocoapods install rubyggems</a></pre>
 <pre><a href="https://github.com/swfobject/swfobject">swfobject</a></pre>
+<pre><a href="https://www.npmjs.com/package/jquery">install jquery</a></pre>
