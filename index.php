@@ -127,3 +127,6 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://www.npmjs.com/package/jquery">install jquery</a></pre>
 <pre><a href="https://github.com/swfobject/swfobject/wiki/SWFObject-API">SWFOBJECT wiki</a></pre>
 <pre><a href="id_nm.png">id numerique</a></pre>
+<pre><a href="https://www.laposte.fr/lehub/76-secondes-pour-gagner-ou-perdre?r=z">marketing client</a></pre>
+<pre><a href="https://www.laposte.fr/lehub/Les-nouveaux-leviers-de-la?r=z">marketing</a></pre>
+
