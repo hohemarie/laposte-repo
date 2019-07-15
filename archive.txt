@@ -1,0 +1,21 @@
+$(unzip jquery-ui-1.12.1.zip)
+Archive:  jquery-ui-1.12.1.zip
+  inflating: jquery-ui-1.12.1/jquery-ui.theme.css  
+  inflating: jquery-ui-1.12.1/index.html  
+  inflating: jquery-ui-1.12.1/external/jquery/jquery.js  
+  inflating: jquery-ui-1.12.1/package.json  
+  inflating: jquery-ui-1.12.1/LICENSE.txt  
+  inflating: jquery-ui-1.12.1/AUTHORS.txt  
+  inflating: jquery-ui-1.12.1/jquery-ui.theme.min.css  
+  inflating: jquery-ui-1.12.1/jquery-ui.structure.min.css  
+  inflating: jquery-ui-1.12.1/jquery-ui.structure.css  
+  inflating: jquery-ui-1.12.1/jquery-ui.css  
+  inflating: jquery-ui-1.12.1/jquery-ui.min.css  
+  inflating: jquery-ui-1.12.1/jquery-ui.js  
+  inflating: jquery-ui-1.12.1/jquery-ui.min.js  
+  inflating: jquery-ui-1.12.1/images/ui-icons_ffffff_256x240.png  
+  inflating: jquery-ui-1.12.1/images/ui-icons_444444_256x240.png  
+  inflating: jquery-ui-1.12.1/images/ui-icons_777777_256x240.png  
+  inflating: jquery-ui-1.12.1/images/ui-icons_cc0000_256x240.png  
+  inflating: jquery-ui-1.12.1/images/ui-icons_777620_256x240.png  
+  inflating: jquery-ui-1.12.1/images/ui-icons_555555_256x240.png  

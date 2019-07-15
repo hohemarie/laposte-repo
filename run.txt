@@ -1,0 +1,16 @@
+
+> hackingproject@1.0.0 build /home/hacker/test2
+> webpack --config webpack.config.js
+
+Hash: 9d63dfd1726c2b9a6b03
+Version: webpack 4.35.3
+Time: 129ms
+Built at: 2019-07-15 11:14:37
+  Asset      Size  Chunks             Chunk Names
+main.js  1.04 KiB       0  [emitted]  main
+Entrypoint main = main.js
+[0] ./src/index.js 272 bytes {0} [built]
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/

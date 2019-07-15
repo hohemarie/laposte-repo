@@ -1,0 +1,4 @@
++ lodash.chunk@4.2.0
+added 1 package from 3 contributors and audited 5352 packages in 9.574s
+found 6 vulnerabilities (3 low, 1 moderate, 1 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details

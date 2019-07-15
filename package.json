@@ -3,19 +3,28 @@
   "version": "1.0.0",
   "description": "hacking project",
   "main": "index.php",
-  "homepage":"https://developer-test-123456958478956.herokuapp.com/index.php",
+  "homepage": "https://developer-test-123456958478956.herokuapp.com/index.php",
   "bugs": {
-    "url": "issues.php"
-  , "email":"hacker20190387468675@gmail.com"
+    "url": "issues.php",
+    "email": "hacker20190387468675@gmail.com"
   },
   "license": "(BSD-2-Clause or Apache-2.0)",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [
     "hacking",
     "project",
     "heroku"
   ],
-  "author": "hacker"
+  "author": "hacker",
+  "dependencies": {
+    "build": "^0.1.4",
+    "lodash.chunk": "^4.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6"
+  }
 }

@@ -1,0 +1,11 @@
+yarn run v1.17.3
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.17.3
+$ webpack --config webpack.config.js
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+> hackingproject@1.0.0 build /home/hacker/test2
+> webpack --config webpack.config.js
+
+> hackingproject@1.0.0 build /home/hacker/test2
+> webpack --config webpack.config.js
