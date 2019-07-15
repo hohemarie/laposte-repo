@@ -111,3 +111,4 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://developers.facebook.com/products/app-ads">fb app ads</a></pre>
 <pre><a href="https://developers.facebook.com/docs/app-events">fb app events</a></pre>
 <pre><a href="test.php">results webpack installation</a></pre>
+<pre><a href="https://forums.vandyke.com/showthread.php?t=921&page=2">ascii unicode line drawing</a></pre>
