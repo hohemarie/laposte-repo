@@ -20,6 +20,7 @@
 </head>
 <body>
 <div id="container"></div>
+<div id="log"></div>
 <script>
 twttr.widgets.load(
   document.getElementById("container")
@@ -30,7 +31,7 @@ twttr.widgets.createTweet(
   {
     theme: 'dark'
   }
-).then( function( el ) {
+).then( function(el) {
   console.log('Tweet added.');
 });
 </script>
