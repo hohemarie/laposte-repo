@@ -129,4 +129,8 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="id_nm.png">id numerique</a></pre>
 <pre><a href="https://www.laposte.fr/lehub/76-secondes-pour-gagner-ou-perdre?r=z">marketing client</a></pre>
 <pre><a href="https://www.laposte.fr/lehub/Les-nouveaux-leviers-de-la?r=z">marketing</a></pre>
-
+<pre><a href="https://publish.twitter.com/">What would you like to embed?</a></pre>
+<pre><a href="https://ads.twitter.com/login">advertize on twitter</a></pre>
+<pre><a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-javascript-factory-function">embedded twwets js factory</a></pre>
+<pre><a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference">embedded tweets param ref</a></pre>
+<pre><a href="tweet.html">my embedded</a></pre>
