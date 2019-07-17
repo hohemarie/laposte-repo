@@ -58,8 +58,8 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://www.appnexus.com/blog/appnexus-programmable-platform-enters-open-beta">The AppNexus Programmable Platform Enters Open Beta</a></pre>
 <pre><a href="https://www.urbandictionary.com/define.php?term=Open%20Beta">Open Beta<a>: The stage in video game or software development where the general public can play the game to find any last known bugs.</pre>
 <pre><a href="https://docs.microsoft.com/fr-fr/windows-server/networking/core-network-guide/cncg/server-certs/install-the-web-server-web1">windows server web server</pre>
-<pre><a href="https://docs.microsoft.com/en-us/windows-server/">windows server documentation</pre>
-<pre><a href="https://handlebarsjs.com/">handle bars</a></pre>
+
+
 <pre>common use case of liveperson: Integrate LiveEngage with your native app with<a href="https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html">android</a>or<a href="https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html">iOS</a></pre>
 <pre>an other comme use case is Customize LiveEngage reports or create new ones,</pre>
 <pre>so some of the key use cases for you are:</pre>
@@ -157,3 +157,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://www.laposte.fr/plan-du-site">plan site</a></pre>
 <pre><a href="https://invest.xandr.com/login"> login here</a> to learn about appnexus products</pre>
 <pre><a href="https://wiki.appnexus.com/display/industry/Welcome">introduction to online advertising, ad tech, and ad serving</a></pre>
+<pre><a href="https://docs.microsoft.com/en-us/windows-server/">windows server documentation</pre>
+<pre><a href="https://handlebarsjs.com/">handle bars</a></pre>
+<pre><a href="https://www.panoptinet.com/cybersecurite-decryptee/nouveau-paiement-paylib-plus-securise-que-paypal.html">paiement paylib securise</a></pre>
+<pre><a href="https://graphseobourse.fr/faut-il-preferer-paylib-paypal/">paypal facebook</a></pre>
