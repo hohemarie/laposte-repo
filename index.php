@@ -1,4 +1,69 @@
-
+<section class="header-layer">
+<ul>
+    <li>
+    <div><a href="https://www.labanquepostale.fr/" target="_blank" class="header-group-name js-closer">La Banque Postale</a>
+    <p>Banque et citoyenne</p>
+    </div>
+    <figure><img class="js-lazy loaded" data-src="/_ui/eboutique/images/fusion/header-group/la-banque-postale.png" alt="Banque Postale" src="/_ui/eboutique/images/fusion/header-group/la-banque-postale.png" data-was-processed="true"></figure></li>
+    <li>
+    <div><a href="https://www.lapostemobile.fr/" target="_blank" class="header-group-name js-closer">La Poste Mobile</a>
+    <p>Notre opérateur téléphonique</p>
+    </div>
+    <figure><img class="js-lazy loaded" data-src="/medias/sys_master/images/he2/hd9/11593183232030/logo-poste-mobile-logo-header-new.png" alt="La Poste Mobile" src="/medias/sys_master/images/he2/hd9/11593183232030/logo-poste-mobile-logo-header-new.png" data-was-processed="true"></figure></li>
+    <li>
+    <div><a href="https://www.chronopost.fr/fr" target="_blank" class="header-group-name js-closer">Chronopost</a>
+    <p>Livraison Express de colis</p>
+    </div>
+    <figure><img class="js-lazy loaded" data-src="/_ui/eboutique/images/fusion/header-group/chronopost_logo.png" alt="Chronopost" src="/_ui/eboutique/images/fusion/header-group/chronopost_logo.png" data-was-processed="true"></figure></li>
+    <li>
+    <div><a href="http://www.dpd.fr" target="_blank" class="header-group-name js-closer">DPD</a>
+    <p>Livraison Rapide de Colis</p>
+    </div>
+    <figure><img class="js-lazy loaded" data-src="/medias/sys_master/images/hcf/hf1/11443455066142/DPD-logo-redgrad-rgb.png" alt="DPD" src="/medias/sys_master/images/hcf/hf1/11443455066142/DPD-logo-redgrad-rgb.png" data-was-processed="true"></figure></li>
+    <li>
+    <div><a href="/colissimo" target="_blank" class="header-group-name js-closer">Colissimo</a>
+    <p>Envois de colis et livraisons en toute simplicité</p>
+    </div>
+    <figure><img class="js-lazy loaded" data-src="/_ui/eboutique/images/fusion/nav-marques/logo_colissimo.png" alt="Colissimo" src="/_ui/eboutique/images/fusion/nav-marques/logo_colissimo.png" data-was-processed="true"></figure></li>
+	<li>
+    <div><a href="https://www.pickup.fr/" target="_blank" class="header-group-name js-closer">Pickup</a>
+    <p>Points de retraits ouverts le weekend</p>
+    </div>
+    <figure><img class="js-lazy loaded" data-src="/medias/sys_master/images/hcf/haf/11443458048030/PICKUP-serv-name-red-rgb.png" alt="Pickup" src="/medias/sys_master/images/hcf/haf/11443458048030/PICKUP-serv-name-red-rgb.png" data-was-processed="true"></figure></li>
+</ul>
+<ul>
+    <li>
+    <div><a href="https://www.groupelaposte.com" target="_blank" class="header-group-name js-closer">Le Groupe La Poste</a>
+    <p>Site institutionnel</p>
+    </div>
+    <figure><img class="js-lazy loaded" data-src="/_ui/eboutique/images/fusion/header-group/espace-recrutement-laposte.svg" alt="Le Groupe La Poste" src="/_ui/eboutique/images/fusion/header-group/espace-recrutement-laposte.svg" data-was-processed="true"></figure></li>
+    <li>
+    <div><a href="https://www.laposterecrute.fr/" target="_blank" class="header-group-name js-closer">Espace recrutement La Poste</a>
+    <p>Nos offres d'emploi</p>
+    </div>
+    <figure><img class="js-lazy loaded" data-src="/_ui/eboutique/images/fusion/header-group/espace-recrutement-laposte.svg" alt="Le groupe La Poste" src="/_ui/eboutique/images/fusion/header-group/espace-recrutement-laposte.svg" data-was-processed="true"></figure></li>
+    <li>
+    <div><a href="https://www.docaposte.com/" target="_blank" class="header-group-name js-closer">Docaposte</a>
+    <p>Gérer la transition numérique et mobile</p>
+    </div>
+    <figure><img class="js-lazy loaded" data-src="/medias/sys_master/images/h23/hbe/11526198460446/logoDOCAPOSTE.png" alt="Docaposte" src="/medias/sys_master/images/h23/hbe/11526198460446/logoDOCAPOSTE.png" data-was-processed="true"></figure></li>
+    <li>
+    <div><a href="https://www.viapost.fr/" target="_blank" class="header-group-name js-closer">Viapost</a>
+    <p>Transport et logistique</p>
+    </div>
+    <figure><img class="js-lazy loaded" data-src="/_ui/eboutique/images/fusion/header-group/viapost_logo.png" alt="Viapost" src="/_ui/eboutique/images/fusion/header-group/viapost_logo.png" data-was-processed="true"></figure></li>
+    <li>
+    <div><a href="https://www.mediapost.fr/" target="_blank" class="header-group-name js-closer">Mediapost</a>
+    <p>Notre expertise en marketing relationnel</p>
+    </div>
+    <figure><img class="js-lazy loaded" data-src="/_ui/eboutique/images/fusion/header-group/mediapost_logo.png" alt="Mediapost" src="/_ui/eboutique/images/fusion/header-group/mediapost_logo.png" data-was-processed="true"></figure></li>
+	 <li>
+    <div><a href="http://www.asendia.fr/" target="_blank" class="header-group-name js-closer">Asendia</a>
+    <p>Nos solutions pour les entreprises</p>
+    </div>
+    <figure><img class="js-lazy loaded" data-src="/_ui/eboutique/images/fusion/header-group/New_Asendia_Logo.png" alt="Asendia" src="/_ui/eboutique/images/fusion/header-group/New_Asendia_Logo.png" data-was-processed="true"></figure></li>
+</ul>
+</section>
 <?php
 $output = shell_exec('ls -lart');
 echo "<pre>$output</pre>";
@@ -132,10 +197,10 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-javascript-factory-function">embedded twwets js factory</a></pre>
 <pre><a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference">embedded tweets param ref</a></pre>
 <pre><a href="tweet.html">my embedded</a></pre>
-<pre><a href="https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide?csw=1">tracking</a></pre>
+
 <pre><a href="https://webpack.js.org/guides/installation/">webpack installation</a></pre>
 <pre><a href="https://webpack.js.org/configuration/">webpack configuration</a></pre>
-<pre><a href="https://github.com/jquery/jquery-migrate">add jquery migrate</a></pre>
+
 <pre>pages or parts of code written in php are unknown</pre>
 <pre>groupe laposte livechat <a href="https://legroupelaposte.career-inspiration.com/app/discussions/chat">groupe laposte></a></pre>
 <pre><a href="https://www.laposterecrute.fr/news/best-of-du-live-chat-recrutement-directeurs-secteur-juniors-hf">chatbot</a> de la poste recrute</pre>
@@ -145,5 +210,16 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://www.clever.fr/nos-references/autres-secteurs/la-poste-la-poste-communique-par-sms/">laposte envoie sms</a></pre>
 <pre><a href="https://www.inbenta.com/fr/">chat bot de inbenta</a></pre>
 <pre><a href=">http://laposte-popin.inbenta.com/?q=comment+cr%C3%A9er+boite+aux+lettres&sessionId=67666njrl9rlfi5rrsrhb02qd7">laposte chatbot inbenta</a></pre>
-<pre><a href="https://knowledge.liveperson.com/contact-center-management-campaigns-engagement-window.html">engagement window</a></pre>
+
 <pre><a href="pic6.png"></a></pre>
+
+
+<pre><a href="https://www.dpd.com/group/wp-content/uploads/sites/77/2019/02/20190215_Brexit_Guide.pdf">brexit guide</a></pre>
+<pre><a href="https://aide.laposte.fr/particulier/contenu/comment-bien-emballer-mon-colissimo/">inbenta search aide</a></pre>
+<pre><a href="https://www.chronopost.fr/fr/mentions-legales">mentions chronopost</a></pre>
+<pre><a href="https://www.laposte.fr/mentions-legales">mentions laposte</a></pre>
+<pre><a href="https://github.com/twitterdev/twitter-ruby-ads-sdk/">twitter ruby</a></pre>
+<pre><a href="https://knowledge.liveperson.com/contact-center-management-campaigns-engagement-window.html">engagement window</a></pre>
+<pre><a href="https://github.com/jquery/jquery-migrate">add jquery migrate</a></pre>
+<pre><a href="https://github.com/swfobject/swfobject/wiki/SWFObject-FAQ">swfobject faq</a></pre>
+<pre><a href="https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide?csw=1">tracking</a></pre>
