@@ -47,7 +47,6 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://codes-sources.commentcamarche.net/faq/932-utilisation-de-swfobject">Wiki mediabox SWFObject</a></pre>
 <pre><a href="https://jqueryui.com/resources/download/jquery-ui-1.12.1.zip">jquery ui quick download stable release</a></pre>
 <pre><a href="https://jqueryui.com/download/">jquery ui custom download with download builder</a></pre>
-
 <pre><a href="https://developers.facebook.com/products#publishing">faceboko publishing</a></pre>
 <pre><a href="https://developers.facebook.com/products#social-integrations">facebook social integrations</a></pre>
 <pre><a href="https://developers.facebook.com/products#social-integrations">facebook social presence</a></pre>
@@ -94,11 +93,11 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://api.jqueryui.com/theming/css-framework/">class names used by jquery ui</a></pre>
 <pre><a href="https://github.com/webpack/enhanced-resolve/releases/tag/v5.0.0-beta.0">download page for enhanced resolve webpack</a> go to assets(2) and choose tar gz or zip to decompress files</pre>
 <pre><a href="package.json">package.json</a></pre>
-<pre><a href="https://wiki.appnexus.com/display/industry/Welcome">introduction to online advertising, ad tech, and ad serving</a></pre>
+
 <pre><a href="https://html.spec.whatwg.org/multipage/parsing.html#unexpected-markup-in-tables">html standards unexpected markup in tables</a></pre>
 <table><b><tr><td>aaa</td></tr>bbb</table>ccc
 <pre><a href="https://docs.appnexus.com/">App nexus documentation center</a></pre>
-<pre><a href="https://invest.xandr.com/login"> login here</a> to learn about appnexus products</pre>
+
 <pre>------------><a href="blind.html">click here</a> to try blind effect</pre>
 <a data-fancybox="gallery" href="big_1.jpg"><img src="wp_small.png"></a>
 <a data-fancybox="gallery" href="big_1.jpg"><img src="java_small.png"></a>
@@ -132,10 +131,8 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference">embedded tweets param ref</a></pre>
 <pre><a href="tweet.html">my embedded</a></pre>
 <pre><a href="https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide?csw=1">google web tracking</a></pre>
-
 <pre><a href="https://webpack.js.org/guides/installation/">webpack installation</a></pre>
 <pre><a href="https://webpack.js.org/configuration/">webpack configuration</a></pre>
-
 <pre>pages or parts of code written in php are unknown</pre>
 <pre>groupe laposte livechat <a href="https://legroupelaposte.career-inspiration.com/app/discussions/chat">groupe laposte></a></pre>
 <pre><a href="https://www.laposterecrute.fr/news/best-of-du-live-chat-recrutement-directeurs-secteur-juniors-hf">chatbot</a> de la poste recrute</pre>
@@ -145,10 +142,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://www.clever.fr/nos-references/autres-secteurs/la-poste-la-poste-communique-par-sms/">laposte envoie sms</a></pre>
 <pre><a href="https://www.inbenta.com/fr/">chat bot de inbenta</a></pre>
 <pre><a href=">http://laposte-popin.inbenta.com/?q=comment+cr%C3%A9er+boite+aux+lettres&sessionId=67666njrl9rlfi5rrsrhb02qd7">laposte chatbot inbenta</a></pre>
-
 <pre><a href="pic6.png"></a></pre>
-
-
 <pre><a href="https://www.dpd.com/group/wp-content/uploads/sites/77/2019/02/20190215_Brexit_Guide.pdf">brexit guide</a></pre>
 <pre><a href="https://aide.laposte.fr/particulier/contenu/comment-bien-emballer-mon-colissimo/">inbenta search aide</a></pre>
 <pre><a href="https://www.chronopost.fr/fr/mentions-legales">mentions chronopost</a></pre>
@@ -158,3 +152,8 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://github.com/jquery/jquery-migrate">add jquery migrate</a></pre>
 <pre><a href="https://github.com/swfobject/swfobject/wiki/SWFObject-FAQ">swfobject faq</a></pre>
 <pre><a href="https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide?csw=1">tracking</a></pre>
+<pre><a href="https://developers.google.com/tag-manager/quickstart">google tag quick start</a></pre>
+<pre>create google tag account and container</pre>
+<pre><a href="https://www.laposte.fr/plan-du-site">plan site</a></pre>
+<pre><a href="https://invest.xandr.com/login"> login here</a> to learn about appnexus products</pre>
+<pre><a href="https://wiki.appnexus.com/display/industry/Welcome">introduction to online advertising, ad tech, and ad serving</a></pre>
