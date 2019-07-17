@@ -34,6 +34,24 @@ twttr.widgets.createTweet(
 ).then( function(el) {
   console.log('Tweet added.');
 });
+twttr.events.bind(
+  'rendered',
+  function (event) {
+    console.log("Created widget", event.target.id);
+  }
+);
+twttr.ready(
+  function (twttr) {
+    // bind events here
+    twttr.events.bind(
+      'like',
+      function(event) {
+        var likedTweetId = event.data.tweet_id;
+        console.log(likedTweetId);
+      }
+    );
+  }
+);
 </script>
 </body>
 </html>
