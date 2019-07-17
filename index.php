@@ -131,9 +131,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-javascript-factory-function">embedded twwets js factory</a></pre>
 <pre><a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference">embedded tweets param ref</a></pre>
 <pre><a href="tweet.html">my embedded</a></pre>
-<<<<<<< HEAD
 <pre><a href="https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide?csw=1">google web tracking</a></pre>
-=======
 
 <pre><a href="https://webpack.js.org/guides/installation/">webpack installation</a></pre>
 <pre><a href="https://webpack.js.org/configuration/">webpack configuration</a></pre>
@@ -160,4 +158,3 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://github.com/jquery/jquery-migrate">add jquery migrate</a></pre>
 <pre><a href="https://github.com/swfobject/swfobject/wiki/SWFObject-FAQ">swfobject faq</a></pre>
 <pre><a href="https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide?csw=1">tracking</a></pre>
->>>>>>> be1d7368ff5ebaa9f0f2eb6f9d36f9cd4389ab2f
