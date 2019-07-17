@@ -48,8 +48,8 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://codes-sources.commentcamarche.net/faq/932-utilisation-de-swfobject">Wiki mediabox SWFObject</a></pre>
 <pre><a href="https://jqueryui.com/resources/download/jquery-ui-1.12.1.zip">jquery ui quick download stable release</a></pre>
 <pre><a href="https://jqueryui.com/download/">jquery ui custom download with download builder</a></pre>
-<pre><a href="https://webpack.js.org/guides/installation/">webpack installation</a></pre>
-<pre><a href="https://webpack.js.org/configuration/">webpack configuration</a></pre>
+
+
 <pre><a href="https://github.com/jquery/jquery-migrate">add jquery migrate</a></pre>
 <pre><a href="https://developers.facebook.com/products#publishing">faceboko publishing</a></pre>
 <pre><a href="https://developers.facebook.com/products#social-integrations">facebook social integrations</a></pre>
@@ -135,3 +135,5 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference">embedded tweets param ref</a></pre>
 <pre><a href="tweet.html">my embedded</a></pre>
 <pre><a href="https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide?csw=1">tracking</a></pre>
+<pre><a href="https://webpack.js.org/guides/installation/">webpack installation</a></pre>
+<pre><a href="https://webpack.js.org/configuration/">webpack configuration</a></pre>
