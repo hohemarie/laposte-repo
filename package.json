@@ -24,7 +24,7 @@
     "lodash.chunk": "^4.2.0"
   },
   "devDependencies": {
-    "webpack": "^4.35.3",
+    "webpack": "^4.36.0",
     "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.3.6"
   }

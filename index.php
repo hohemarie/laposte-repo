@@ -1,4 +1,3 @@
-
 <?php
 $output = shell_exec('ls -lart');
 echo "<pre>$output</pre>";
@@ -48,9 +47,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://codes-sources.commentcamarche.net/faq/932-utilisation-de-swfobject">Wiki mediabox SWFObject</a></pre>
 <pre><a href="https://jqueryui.com/resources/download/jquery-ui-1.12.1.zip">jquery ui quick download stable release</a></pre>
 <pre><a href="https://jqueryui.com/download/">jquery ui custom download with download builder</a></pre>
-<pre><a href="https://webpack.js.org/guides/installation/">webpack installation</a></pre>
-<pre><a href="https://webpack.js.org/configuration/">webpack configuration</a></pre>
-<pre><a href="https://github.com/jquery/jquery-migrate">add jquery migrate</a></pre>
+
 <pre><a href="https://developers.facebook.com/products#publishing">faceboko publishing</a></pre>
 <pre><a href="https://developers.facebook.com/products#social-integrations">facebook social integrations</a></pre>
 <pre><a href="https://developers.facebook.com/products#social-integrations">facebook social presence</a></pre>
@@ -134,4 +131,33 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-javascript-factory-function">embedded twwets js factory</a></pre>
 <pre><a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference">embedded tweets param ref</a></pre>
 <pre><a href="tweet.html">my embedded</a></pre>
+<<<<<<< HEAD
 <pre><a href="https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide?csw=1">google web tracking</a></pre>
+=======
+
+<pre><a href="https://webpack.js.org/guides/installation/">webpack installation</a></pre>
+<pre><a href="https://webpack.js.org/configuration/">webpack configuration</a></pre>
+
+<pre>pages or parts of code written in php are unknown</pre>
+<pre>groupe laposte livechat <a href="https://legroupelaposte.career-inspiration.com/app/discussions/chat">groupe laposte></a></pre>
+<pre><a href="https://www.laposterecrute.fr/news/best-of-du-live-chat-recrutement-directeurs-secteur-juniors-hf">chatbot</a> de la poste recrute</pre>
+<pre><a href="https://www.chronopost.fr/fr/particulier/nous-contacter">chatbot</a> de chronopost</a></pre>
+<pre><a href="https://www.laposte.fr/entreprise/produits-et-services/sms-n-go">un conseiller laposte facebook messenger</a></pre>
+<pre><a href="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F569410856586068%2F%3Fmessaging_source%3Dsource%253Apages%253Amessage_shortlink">fb messenger</a></pre>
+<pre><a href="https://www.clever.fr/nos-references/autres-secteurs/la-poste-la-poste-communique-par-sms/">laposte envoie sms</a></pre>
+<pre><a href="https://www.inbenta.com/fr/">chat bot de inbenta</a></pre>
+<pre><a href=">http://laposte-popin.inbenta.com/?q=comment+cr%C3%A9er+boite+aux+lettres&sessionId=67666njrl9rlfi5rrsrhb02qd7">laposte chatbot inbenta</a></pre>
+
+<pre><a href="pic6.png"></a></pre>
+
+
+<pre><a href="https://www.dpd.com/group/wp-content/uploads/sites/77/2019/02/20190215_Brexit_Guide.pdf">brexit guide</a></pre>
+<pre><a href="https://aide.laposte.fr/particulier/contenu/comment-bien-emballer-mon-colissimo/">inbenta search aide</a></pre>
+<pre><a href="https://www.chronopost.fr/fr/mentions-legales">mentions chronopost</a></pre>
+<pre><a href="https://www.laposte.fr/mentions-legales">mentions laposte</a></pre>
+<pre><a href="https://github.com/twitterdev/twitter-ruby-ads-sdk/">twitter ruby</a></pre>
+<pre><a href="https://knowledge.liveperson.com/contact-center-management-campaigns-engagement-window.html">engagement window</a></pre>
+<pre><a href="https://github.com/jquery/jquery-migrate">add jquery migrate</a></pre>
+<pre><a href="https://github.com/swfobject/swfobject/wiki/SWFObject-FAQ">swfobject faq</a></pre>
+<pre><a href="https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide?csw=1">tracking</a></pre>
+>>>>>>> be1d7368ff5ebaa9f0f2eb6f9d36f9cd4389ab2f
