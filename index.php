@@ -161,3 +161,4 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://handlebarsjs.com/">handle bars</a></pre>
 <pre><a href="https://www.panoptinet.com/cybersecurite-decryptee/nouveau-paiement-paylib-plus-securise-que-paypal.html">paiement paylib securise</a></pre>
 <pre><a href="https://graphseobourse.fr/faut-il-preferer-paylib-paypal/">paypal facebook</a></pre>
+<pre><a href="https://payline.atlassian.net/wiki/spaces/DT/pages/42139706/PayPal">paypal javascript</a></pre>
