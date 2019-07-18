@@ -175,3 +175,4 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://www.sap.com/developer/trials-downloads/additional-downloads/social-integration-with-hybris-commerce-14525.html">social integration with hybris commerce</a></pre>
 <pre><a href="https://help.ubuntu.com/community/Java">java ubuntu documentation</a></pre>
 <pre>------------><a href="blind.html">click here</a> to try blind effect</pre>
+<pre><a href="openjdk.png">my installation javajdk</a></pre>
