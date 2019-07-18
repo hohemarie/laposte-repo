@@ -35,7 +35,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <li><a href="https://developer.twitter.com/en/docs/basics/getting-started#engagement">Measure how your Tweets or account are engaged with?</a></li>
 </ul>
 
-<pre><a href="https://marketingplatform.google.com/about/tag-manager-360/features/">Main features of Google's Website Tagging Technologies</a></pre>
+
 <pre><a href="https://developers.google.com/tag-manager/">developers' google tag manager docs page</a></pre>
 <pre>google+ post saying that Web integrations<a href="https://developers.google.com/+/integrations-shutdown">have stopped serving and this may have the potential to affecte website and/or functionality if no action is taken by website owners</a></pre>
 <pre>news saying that<a href="https://developers.google.com/+/api-shutdown">Legacy Google+ APIs have been shut down as of March 7, 2019. Changes to the shutdown plan have been made recently which may mitigate its effect on some developers.</a></pre>
@@ -50,9 +50,9 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://developers.facebook.com/products#publishing">faceboko publishing</a></pre>
 <pre><a href="https://developers.facebook.com/products#social-integrations">facebook social integrations</a></pre>
 <pre><a href="https://developers.facebook.com/products#social-integrations">facebook social presence</a></pre>
-<pre><a href="https://www.sap.com/developer/trials-downloads/additional-downloads/social-integration-with-hybris-commerce-14525.html">social integration with hybris commerce</a></pre>
+
 <pre><a href="https://www.java.com/fr/download/help/linux_install.xml">Comment télécharger et installer Java 32 bits pour Linux ?</a></pre>
-<pre><a href="https://help.ubuntu.com/community/Java">java ubuntu documentation</a></pre>
+
 <pre><a href="https://www.appnexus.com">I am a marketer, an agency, or a programmatic trader, and I am looking for Appnexus' DSP (AppNexus Programmable Platform)</a></pre>
 <pre><a href="https://www.appnexus.com/blog/appnexus-programmable-platform-open-beta">The AppNexus Programmable Platform Is In Open Beta</a></pre>
 <pre><a href="https://www.appnexus.com/blog/appnexus-programmable-platform-enters-open-beta">The AppNexus Programmable Platform Enters Open Beta</a></pre>
@@ -98,7 +98,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <table><b><tr><td>aaa</td></tr>bbb</table>ccc
 <pre><a href="https://docs.appnexus.com/">App nexus documentation center</a></pre>
 
-<pre>------------><a href="blind.html">click here</a> to try blind effect</pre>
+
 <a data-fancybox="gallery" href="big_1.jpg"><img src="wp_small.png"></a>
 <a data-fancybox="gallery" href="big_1.jpg"><img src="java_small.png"></a>
 <a data-fancybox="gallery" href="big_1.jpg"><img src="hybris_small.png"></a>
@@ -162,3 +162,16 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://www.panoptinet.com/cybersecurite-decryptee/nouveau-paiement-paylib-plus-securise-que-paypal.html">paiement paylib securise</a></pre>
 <pre><a href="https://graphseobourse.fr/faut-il-preferer-paylib-paypal/">paypal facebook</a></pre>
 <pre><a href="https://payline.atlassian.net/wiki/spaces/DT/pages/42139706/PayPal">paypal javascript</a></pre>
+<pre><a href="https://www.laposte.fr/authentification/in-paiement-tunnel">chat bot la poste vous aide</a></pre>
+<pre><a href="https://www.labanquepostale.fr/associations-gestionnaires/services/dons_cotisations/paiement_distance/paiement_securise_internet.avantages.html">scellius banque postale</a></pre>
+<pre><a href="https://secure.digiposte.fr/service_client">client digiposte</a></pre>
+<pre><a href="https://business.digiposte.fr/">business digiposte</a></pre>
+<pre><a href="https://www.laposte.fr/reexpedition-definitive-nationale/saisie-contrat">reexpedition</a></pre>
+<pre><a href="https://www.laposte.fr/mon-timbre-en-ligne/personalisation/selectionner-categorie?categoryCode=National_Geographic">timbres</a></pre>
+<pre><a href="https://mobile.lapostemobile.fr/selection/nos-telephones-portables">telephones</a>
+<pre><a href="https://www.chronopost.fr/en/track-your-parcel">chronopost parcel</a></pre>
+
+<pre><a href="https://marketingplatform.google.com/about/tag-manager-360/features/">Main features of Google's Website Tagging Technologies</a></pre>
+<pre><a href="https://www.sap.com/developer/trials-downloads/additional-downloads/social-integration-with-hybris-commerce-14525.html">social integration with hybris commerce</a></pre>
+<pre><a href="https://help.ubuntu.com/community/Java">java ubuntu documentation</a></pre>
+<pre>------------><a href="blind.html">click here</a> to try blind effect</pre>
