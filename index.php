@@ -176,3 +176,11 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="openjdk.png">my installation javajdk</a></pre>
 <pre>create account at oracle to install java</a></pre>
 <pre>account at IBM</pre>
+<pre><a href="https://developer.android.com/studio/?gclid=EAIaIQobChMIv6Xi-YrB4wIVREPTCh03MgGiEAAYASAAEgKCGvD_BwE#downloads">android studio</a></pre>
+<pre><a href="https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-quick-start.html#option-2-manually-copy-the-sdk-files-to-your-project">liveperson create and write into files</a></pre>
+<pre><a href="https://github.com/uw-it-aca/spacescout-android/wiki/1.-Setting-Up-Android-Studio-on-Ubuntu">android studio ubuntu</a></pre>
+<pre><a href="https://doc.ubuntu-fr.org/android_sdk">app android ubuntu</a></pre>
+<pre><a href="https://www.linuxsysadmins.com/how-to-install-android-studio-on-ubuntu-lts/">java android</a></pre>
+<pre><a href="https://connectwww.com/how-to-install-android-studio-on-ubuntu/4363/">android studio ubuntu</a></pre>
+<pre><a href="https://forum.ubuntu-fr.org/viewtopic.php?id=2000914">openjdk 7 jre</a></pre>
+<pre><a href="https://doc.ubuntu-fr.org/openjdk">openjdk developer en java</a></pre>
