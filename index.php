@@ -150,7 +150,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://github.com/jquery/jquery-migrate">add jquery migrate</a></pre>
 <pre><a href="https://github.com/swfobject/swfobject/wiki/SWFObject-FAQ">swfobject faq</a></pre>
 <pre><a href="https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide?csw=1">tracking</a></pre>
-<pre><a href="https://developers.google.com/tag-manager/quickstart">google tag quick start</a></pre>
+<pre><a href="https://developers.google.com/tag-manager/quickstart">google tag quick start</a>--------><a href="googletag.html">script</a></pre>
 <pre>create google tag account and container</pre>
 <pre><a href="https://www.laposte.fr/plan-du-site">plan site</a></pre>
 <pre><a href="https://invest.xandr.com/login"> login here</a> to learn about appnexus products</pre>
@@ -175,3 +175,4 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre>------------><a href="blind.html">click here</a> to try blind effect</pre>
 <pre><a href="openjdk.png">my installation javajdk</a></pre>
 <pre>create account at oracle to install java</a></pre>
+<pre>account at IBM</pre>
