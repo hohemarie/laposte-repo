@@ -193,3 +193,5 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://developers.facebook.com/docs/app-events/getting-started-app-events-web">add sdk to website</a></pre>
 <pre>app events iOS android browser</pre>
 <pre>create fb accouint to create ad</pre>
+<pre><a href="https://developers.facebook.com/docs/app-events/best-practices#EventsParameters">event vs param</a></pre>
+	<pre><a href="https://developers.facebook.com/docs/app-events/getting-started-app-events-ios">app eventsiOS requirements</a>, <a href="https://developers.facebook.com/docs/app-events/getting-started-app-events-android">with android studio</a></pre>
