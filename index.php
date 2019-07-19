@@ -190,3 +190,6 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://www.androidcentral.com/installing-android-sdk-windows-mac-and-linux-tutorial">android central</a></pre>
 <pre><a href="https://gamedev.stackexchange.com/questions/93209/how-would-i-find-the-sdk-folder-for-android-studio-so-i-can-build-my-unity-proje">sdk path</a>,<a href="https://github.com/ionic-team/ionic/issues/10604">sdk</a>,<a href="https://doc.ubuntu-fr.org/android_sdk">sdk</a>,<a href="https://stackoverflow.com/questions/25176594/android-sdk-location/39086736">sdk</a></pre>
 <pre><a href="gradle.png">gradle</a> https://services.gradle.org/distributions/gradle-5.1.1-all.zip</pre>
+<pre><a href="https://developers.facebook.com/docs/app-events/getting-started-app-events-web">add sdk to website</a></pre>
+<pre>app events iOS android browser</pre>
+<pre>create fb accouint to create ad</pre>
