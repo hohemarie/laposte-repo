@@ -53,9 +53,9 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 
 <pre><a href="https://www.java.com/fr/download/help/linux_install.xml">Comment télécharger et installer Java 32 bits pour Linux ?</a></pre>
 
-<pre><a href="https://www.appnexus.com">I am a marketer, an agency, or a programmatic trader, and I am looking for Appnexus' DSP (AppNexus Programmable Platform)</a></pre>
-<pre><a href="https://www.appnexus.com/blog/appnexus-programmable-platform-open-beta">The AppNexus Programmable Platform Is In Open Beta</a></pre>
-<pre><a href="https://www.appnexus.com/blog/appnexus-programmable-platform-enters-open-beta">The AppNexus Programmable Platform Enters Open Beta</a></pre>
+
+
+
 <pre><a href="https://www.urbandictionary.com/define.php?term=Open%20Beta">Open Beta<a>: The stage in video game or software development where the general public can play the game to find any last known bugs.</pre>
 <pre><a href="https://docs.microsoft.com/fr-fr/windows-server/networking/core-network-guide/cncg/server-certs/install-the-web-server-web1">windows server web server</pre>
 
@@ -96,7 +96,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 
 <pre><a href="https://html.spec.whatwg.org/multipage/parsing.html#unexpected-markup-in-tables">html standards unexpected markup in tables</a></pre>
 <table><b><tr><td>aaa</td></tr>bbb</table>ccc
-<pre><a href="https://docs.appnexus.com/">App nexus documentation center</a></pre>
+
 <a data-fancybox="gallery" href="big_1.jpg"><img src="wp_small.png"></a>
 <a data-fancybox="gallery" href="program.png"><img src="java_small.png"></a>
 <a data-fancybox="gallery" href="big_1.jpg"><img src="hybris_small.png"></a>
@@ -153,8 +153,8 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://developers.google.com/tag-manager/quickstart">google tag quick start</a>--------><a href="googletag.html">script</a></pre>
 <pre>create google tag account and container</pre>
 <pre><a href="https://www.laposte.fr/plan-du-site">plan site</a></pre>
-<pre><a href="https://invest.xandr.com/login"> login here</a> to learn about appnexus products</pre>
-<pre><a href="https://wiki.appnexus.com/display/industry/Welcome">introduction to online advertising, ad tech, and ad serving</a></pre>
+
+
 <pre><a href="https://docs.microsoft.com/en-us/windows-server/">windows server documentation</pre>
 <pre><a href="https://handlebarsjs.com/">handle bars</a></pre>
 <pre><a href="https://www.panoptinet.com/cybersecurite-decryptee/nouveau-paiement-paylib-plus-securise-que-paypal.html">paiement paylib securise</a></pre>
@@ -195,3 +195,14 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre>create fb accouint to create ad</pre>
 <pre><a href="https://developers.facebook.com/docs/app-events/best-practices#EventsParameters">event vs param</a></pre>
 	<pre><a href="https://developers.facebook.com/docs/app-events/getting-started-app-events-ios">app eventsiOS requirements</a>, <a href="https://developers.facebook.com/docs/app-events/getting-started-app-events-android">with android studio</a></pre>
+<pre><a href="https://www.xandr.com/news/introducing-xandr-invest/">xandr</a>,<a href="https://www.adweek.com/tv-video/atts-xandr-unveils-community-its-long-awaited-video-marketplace/?utm_source=Triggermail&utm_medium=email&utm_campaign=Post%20Blast%20%28bii-digital-media%29:%20AT%26T%20unveils%20Xandr%20Invest%20%E2%80%94%C2%A0a%20one-stop%20shop%20for%20ad%20buyers%20%7C%20Viacom%20to%20launch%20BET%2B%20%7C%20Advertisers%20set%20to%20spend%20%241.7B%20on%20kids%20content%20by%202021&utm_term=BII%20List%20DMedia%20ALL">at&t</a>,<a href="https://www.gourmetads.com/programmatic/appnexus/">gourmetads</a>,<a href="https://finance.yahoo.com/news/introducing-xandr-invest-130000814.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmZyLw&guce_referrer_sig=AQAAAKSVGTV14DoPx2NZ2NB1I6TaMDu-0soBHVtybWmsI1xC0Or0entGq-lHAphOrIhdDNo38k1KnAg6GTr4QM9loPcbV4MyAAtphZ7yEt_wIngJOY5laaZ0fI9swuXUFUKhN0ZhNOM3wddsiZ-2aa6fdKcUf6vOQrFYBHAn4ryhaZIm">xandr invest</a>,<a href="https://ppc.land/sapo-adopts-appnexus-full-stack-adserver-ssp-and-dsp/">appnexus</a>,<a href="https://www.businessofapps.com/guide/dsps/">dsp</a></pre>
+<pre><a href="https://www.businessofapps.com/news/weve-reinvented-the-dsp-appnexus-presents-first-programmable-demand-side-platform/">appnexus</a></pre>
+<pre><a href="https://docs.oracle.com/en/cloud/saas/data-cloud/data-cloud-help-center/Help/Platform/UsingApps/appnexus.html">install appnexus with java</a></pre>
+
+<pre><a href="https://www.appnexus.com">I am a marketer, an agency, or a programmatic trader, and I am looking for Appnexus' DSP (AppNexus Programmable Platform)</a></pre>
+<pre><a href="https://www.appnexus.com/blog/appnexus-programmable-platform-open-beta">The AppNexus Programmable Platform Is In Open Beta</a></pre>
+<pre><a href="https://www.appnexus.com/blog/appnexus-programmable-platform-enters-open-beta">The AppNexus Programmable Platform Enters Open Beta</a></pre>
+<pre><a href="https://docs.appnexus.com/">App nexus documentation center</a></pre>
+<pre><a href="https://invest.xandr.com/login"> login here</a> to learn about appnexus products</pre>
+<pre><a href="https://wiki.appnexus.com/display/industry/Welcome">introduction to online advertising, ad tech, and ad serving</a></pre>
+
