@@ -206,3 +206,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://invest.xandr.com/login"> login here</a> to learn about appnexus products</pre>
 <pre><a href="https://wiki.appnexus.com/display/industry/Welcome">introduction to online advertising, ad tech, and ad serving</a></pre>
 <pre><a href="https://developers.facebook.com/docs">fb business tools</a>, <a href="https://developers.facebook.com/docs/instagram/">to interact with instagram users</a> (social integrations), <a href="https://analytics.facebook.com/">fb analytics</a>,<a href="https://developers.facebook.com/docs/graph-api/reference/page/insights">fb insights</a>,<a href="https://developers.facebook.com/docs/pages">fb pages</a></pre>
+<pre><a href="https://twitter.com/lisalaposte/status/1151152645295476736">parcel uk</a>,<a href="https://www.parcelforce.com/">parcel</a></pre>
+<pre><a href="https://developers.facebook.com/docs/sharing/">fb sharer</a>,<a href="https://www.laposte.fr/digiposte/tous-mes-documents-partout-et-tout-le-temps">digiposte article</a>,<a href="https://www.deafi.com/mentions-legales/">deafi</a></pre>
+<pre><a href="https://hoodspot.fr/faq/">hoodspot</a>, filiere du groupe adverline</pre>
+<pre><a href="https://www.iadvize.com/en/">conversational bot</a></pre>
