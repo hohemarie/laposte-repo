@@ -14,7 +14,8 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 ?>
 
 <a href="page2.php">part 2</a>
-<pre><a href="pic.png">pic</a></pre>
+<pre><a href="pic.png">pic</a></pre> 
+<pre><a href="page3.html">a little front end to end the day...</a></pre>
 <pre><a href="http://inti.sourceforge.net/tutorial/libinti/autotoolsproject.html">doc 1 about aclocal, autoconf, and automake</a></pre>
 <pre><a href="https://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.69/autoconf.html#Generating-Sources">gnu docs about autoconf</a></pre>
 <pre><a href="https://www.gnu.org/software/libtool/manual/libtool.html">gnu docs for libtool</a></pre>
@@ -25,26 +26,13 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="ftp://gcc.gnu.org/pub/gcc/infrastructure/">download area for gcc infrastructure</a></pre>
 <pre><a href="https://gcc.gnu.org/install/prerequisites.html">prerequisites for gcc installation</a></pre>
 <pre><a href="https://www.gnu.org/software/automake/manual/html_node/Unified-Parallel-C-Support.html">automake docs article about an error message I've got "configure: error: no Unified Parallel C compiler was found"</a></pre>
-<pre><a href="page3.html">a little front end to end the day...</a></pre>
-
-<pre><a href="https://www.java.com/fr/download/help/linux_install.xml">Comment télécharger et installer Java 32 bits pour Linux ?</a></pre>
-
 <pre><a href="https://www.urbandictionary.com/define.php?term=Open%20Beta">Open Beta<a>: The stage in video game or software development where the general public can play the game to find any last known bugs.</pre>
-
-
 <pre><a href="package.json">package.json</a></pre>
 <pre><a href="https://html.spec.whatwg.org/multipage/parsing.html#unexpected-markup-in-tables">html standards unexpected markup in tables</a></pre>
 <table><b><tr><td>aaa</td></tr>bbb</table>ccc
-<pre>Java et le navigateur chrome : <a href="https://www.java.com/fr/download/faq/chrome.xml">Chrome ne prend plus en charge NPAPI (technologie requise pour les applets Java)</a></pre>
 
-<pre><a href="try.html">try</a></pre>
 
 <pre><a href="https://forums.vandyke.com/showthread.php?t=921&page=2">ascii unicode line drawing</a></pre>
-<pre>the program webpack requires node (install with sudo apt install nodejs or with npm and nvm)</pre>
-<pre>the program lodash requires java (install with sudo apt install default-jre)</pre>
-<pre><a href="http://zetcode.com/javascript/lodash/">lodash tutorial</a></pre>
-<pre><a href="https://lodash.com/docs/4.17.14#map">webpack usage lodash map</a></pre>
-<pre>For example, when<a href="https://webpack.js.org/configuration/resolve/">calling import 'lodash'</a> in ES2015, the resolve options can change where webpack goes to look for 'lodash' (see modules).</pre>
 
 <pre><a href="https://guides.cocoapods.org/using/getting-started.html">cocoapods install rubyggems</a></pre>
 
@@ -54,8 +42,6 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://www.laposte.fr/lehub/76-secondes-pour-gagner-ou-perdre?r=z">marketing client</a></pre>
 <pre><a href="https://www.laposte.fr/lehub/Les-nouveaux-leviers-de-la?r=z">marketing</a></pre>
 
-<pre><a href="https://webpack.js.org/guides/installation/">webpack installation</a></pre>
-<pre><a href="https://webpack.js.org/configuration/">webpack configuration</a></pre>
 <pre>pages or parts of code written in php are unknown</pre>
 <pre><a href="https://www.clever.fr/nos-references/autres-secteurs/la-poste-la-poste-communique-par-sms/">laposte envoie sms</a></pre>
 <pre><a href="pic6.png"></a></pre>
@@ -65,8 +51,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 
 
 <pre><a href="https://www.laposte.fr/plan-du-site">plan site</a></pre>
-<pre><a href="https://docs.microsoft.com/en-us/windows-server/">windows server documentation</pre>
-<pre><a href="https://handlebarsjs.com/">handle bars</a></pre>
+
 <pre><a href="https://www.panoptinet.com/cybersecurite-decryptee/nouveau-paiement-paylib-plus-securise-que-paypal.html">paiement paylib securise</a></pre>
 <pre><a href="https://payline.atlassian.net/wiki/spaces/DT/pages/42139706/PayPal">paypal javascript</a></pre>
 <pre><a href="https://www.labanquepostale.fr/associations-gestionnaires/services/dons_cotisations/paiement_distance/paiement_securise_internet.avantages.html">scellius banque postale</a></pre>
@@ -214,12 +199,22 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://github.com/jquery/jquery-migrate">add jquery migrate</a></pre>
 <pre>jquery migrate is a complement to jquery UI.</pre>
 <!-- webpack -->
+<pre><a href="https://webpack.js.org/guides/installation/">webpack installation</a></pre>
+<pre><a href="https://webpack.js.org/configuration/">webpack configuration</a></pre>
+
+<pre><a href="https://lodash.com/docs/4.17.14#map">webpack usage lodash map</a></pre>
+<pre>For example, when<a href="https://webpack.js.org/configuration/resolve/">calling import 'lodash'</a> in ES2015, the resolve options can change where webpack goes to look for 'lodash' (see modules).</pre>
+<pre>the program lodash requires java (install with sudo apt install default-jre)</pre>
+<pre><a href="http://zetcode.com/javascript/lodash/">lodash tutorial</a></pre>
+<pre>the program webpack requires node (install with sudo apt install nodejs or with npm and nvm)</pre>
+<pre><a href="try.html">try webpack lodash</a></pre>
 <pre><a href="test.php">results webpack installation</a></pre>
 <pre><a href="https://lodash.com/custom-builds">lodash custom builds</a></pre>
 <pre><a href="https://github.com/webpack-contrib/webpack-bundle-analyzer">webpack bundle analyzer</a></pre>
 <pre><a href="https://lodash.com/docs/4.17.14">lodash docs with source code and npm package installation</a></pre>
 <pre><a href="https://github.com/webpack/enhanced-resolve/releases/tag/v5.0.0-beta.0">download page for enhanced resolve webpack</a> go to assets(2) and choose tar gz or zip to decompress files</pre>
 <!-- windows server -->
+<pre><a href="https://docs.microsoft.com/en-us/windows-server/">windows server documentation</pre>
 <pre><a href="https://docs.microsoft.com/fr-fr/windows-server/networking/core-network-guide/cncg/server-certs/install-the-web-server-web1">windows server web server</pre>
 <!-- heroku -->
 <pre><a href="https://elements.heroku.com/buildpacks/sectorlabs/heroku-buildpack-git-submodule">heroku git buildpack submodule</a></pre>
@@ -242,4 +237,8 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <!-- owl carousel -->
 <pre><a href="https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html">include css, include js, set html, call the plugin, and the carousel is ready.</a>------------> <a href="owl.html">owl example page</a></pre>
 <pre><a href="https://owlcarousel2.github.io/OwlCarousel2/demos/lazyLoad.html">don't forget to fill in the javascript and the html of the carousel</a></pre>
-
+<!-- java -->
+<pre><a href="https://www.java.com/fr/download/help/linux_install.xml">Comment télécharger et installer Java 32 bits pour Linux ?</a></pre>
+<pre>Java et le navigateur chrome : <a href="https://www.java.com/fr/download/faq/chrome.xml">Chrome ne prend plus en charge NPAPI (technologie requise pour les applets Java)</a></pre>
+<!-- handlebars -->
+<pre><a href="https://handlebarsjs.com/">handle bars</a></pre>
