@@ -1,5 +1,3 @@
-<html>
-<body>
 <?php
 $output = shell_exec('ls -lart');
 echo "<pre>$output</pre>";
@@ -241,5 +239,3 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://support.google.com/tagmanager/answer/6107124?hl=fr">google tag manager</a>: twitter advertize not used on laposte.fr. the use of twitter is on the twitter account and the sharing buttons on articles on laposte's website. The same is applicable to facebook. Facebook pages is used, facebook messenger is used for people to get information about their parcel. Then, the sharing plugins are used. Facebook has not more plugins than those.</pre>
 <pre>The ads displayed by Google Tag Manager are provided by the advertizers listed in the ads.txt.</pre>
 <pre>you can use Google Tag Manager to measure events, ecommerce, and to show ads to your users.</pre>
-</body>
-</html>
