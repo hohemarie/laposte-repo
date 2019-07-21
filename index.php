@@ -25,14 +25,14 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://gcc.gnu.org/install/prerequisites.html">prerequisites for gcc installation</a></pre>
 <pre><a href="https://www.gnu.org/software/automake/manual/html_node/Unified-Parallel-C-Support.html">automake docs article about an error message I've got "configure: error: no Unified Parallel C compiler was found"</a></pre>
 <pre><a href="page3.html">a little front end to end the day...</a></pre>
-<h2><a id="get-started"></a>Get started with the Twitter developer platform</h2>
-<h3>What do you want to build?</h3>
-<a href="https://developer.twitter.com/en/docs/basics/getting-started#embed">Integrate Tweets into your app or website?</a>&nbsp;&nbsp;</li>
-<li>Add the ability to <a href="https://developer.twitter.com/en/docs/basics/getting-started#post-message">post Tweets or send Direct Messages</a> from your app or website?</li>
-<li><a href="https://developer.twitter.com/en/docs/basics/getting-started#ads">Target an audience and advertise on the Twitter network?</a></li>
-<li><a href="https://developer.twitter.com/en/docs/basics/getting-started#real-time">Listen in real-time for Tweets of interest?</a>&nbsp;</li>
-<li>Conduct historical research and <a href="https://developer.twitter.com/en/docs/basics/getting-started#historical">search from Twitter's massive archive of publicly-available Tweets</a> posted since March 2006?&nbsp;</li>
-<li><a href="https://developer.twitter.com/en/docs/basics/getting-started#engagement">Measure how your Tweets or account are engaged with?</a></li>
+
+
+
+
+
+
+
+
 </ul>
 
 
@@ -123,11 +123,11 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="id_nm.png">id numerique</a></pre>
 <pre><a href="https://www.laposte.fr/lehub/76-secondes-pour-gagner-ou-perdre?r=z">marketing client</a></pre>
 <pre><a href="https://www.laposte.fr/lehub/Les-nouveaux-leviers-de-la?r=z">marketing</a></pre>
-<pre><a href="https://publish.twitter.com/">What would you like to embed?</a></pre>
-<pre><a href="https://ads.twitter.com/login">advertize on twitter</a></pre>
-<pre><a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-javascript-factory-function">embedded twwets js factory</a></pre>
-<pre><a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference">embedded tweets param ref</a></pre>
-<pre><a href="tweet.html">my embedded</a></pre>
+
+
+
+
+
 <pre><a href="https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide?csw=1">google web tracking</a></pre>
 <pre><a href="https://webpack.js.org/guides/installation/">webpack installation</a></pre>
 <pre><a href="https://webpack.js.org/configuration/">webpack configuration</a></pre>
@@ -145,7 +145,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://aide.laposte.fr/particulier/contenu/comment-bien-emballer-mon-colissimo/">inbenta search aide</a></pre>
 <pre><a href="https://www.chronopost.fr/fr/mentions-legales">mentions chronopost</a></pre>
 <pre><a href="https://www.laposte.fr/mentions-legales">mentions laposte</a></pre>
-<pre><a href="https://github.com/twitterdev/twitter-ruby-ads-sdk/">twitter ruby</a></pre>
+
 <pre><a href="https://knowledge.liveperson.com/contact-center-management-campaigns-engagement-window.html">engagement window</a></pre>
 <pre><a href="https://github.com/jquery/jquery-migrate">add jquery migrate</a></pre>
 <pre><a href="https://github.com/swfobject/swfobject/wiki/SWFObject-FAQ">swfobject faq</a></pre>
@@ -206,11 +206,27 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://invest.xandr.com/login"> login here</a> to learn about appnexus products</pre>
 <pre><a href="https://wiki.appnexus.com/display/industry/Welcome">introduction to online advertising, ad tech, and ad serving</a></pre>
 <pre><a href="https://developers.facebook.com/docs">fb business tools</a>, <a href="https://developers.facebook.com/docs/instagram/">to interact with instagram users</a> (social integrations), <a href="https://analytics.facebook.com/">fb analytics</a>,<a href="https://developers.facebook.com/docs/graph-api/reference/page/insights">fb insights</a>,<a href="https://developers.facebook.com/docs/pages">fb pages</a></pre>
-<pre><a href="https://twitter.com/lisalaposte/status/1151152645295476736">parcel uk</a>,<a href="https://www.parcelforce.com/">parcel</a></pre>
+
 <pre><a href="https://developers.facebook.com/docs/sharing/">fb sharer</a>,<a href="https://www.laposte.fr/digiposte/tous-mes-documents-partout-et-tout-le-temps">digiposte article</a>,<a href="https://www.deafi.com/mentions-legales/">deafi</a></pre>
 <pre><a href="https://hoodspot.fr/faq/">hoodspot</a>, filiere du groupe adverline</pre>
 <pre><a href="https://www.iadvize.com/en/">conversational bot</a></pre>
 <pre><a href="https://support.google.com/tagmanager/answer/6107124?hl=fr">google tag manager</a>: twitter advertize not used on laposte.fr. the use of twitter is on the twitter account and the sharing buttons on articles on laposte's website. The same is applicable to facebook. Facebook pages is used, facebook messenger is used for people to get information about their parcel. Then, the sharing plugins are used. Facebook has not more plugins than those.</pre>
 <pre>you can use Google Tag Manager to measure events, ecommerce, and to show ads to your users.</pre>
 <pre>swfobject allows to display flash player ads. jquery migrate is no more than a complement to jquery UI. Appnexus can be installed with JAVA. Windows Server supports specific Java versions. Nginx is included in Heroku platform. OWL Carousel's usage is to display carousels. You use Liverperson to create conversational bots that you place in the corner of the page. Liveperson is not the only conversational bot on laposte. Hybris is supposed to work with Facebooks social integrataion plugins, but a registration and the creation of ads is compulsory to make the two work together. FancyBox allows you to link icons with larger pictures. HTT2 is the transmission protocol, and is included in a Heroku app. lo-dash is used by webpack. Some of the technologies laposte uses are not referenced in the websites tat analyze technologies of a website and can only be found through the inspection of the pages. Google+ was deprecated as of March 2019 as no longerin use. The ads Google Tag Manager displays are provided by the advertizers listed in the ads.txt.</pre>
-<pre></pre>
+<pre><a href="http://henriksjokvist.net/archive/2009/2/using-the-html5-video-tag-with-a-flash-fallback/">embed video clips</a></pre>
+<pre><a href="https://github.com/swfobject/swfobject/wiki/SWFObject-and-HTML5">swfobject html5</a></pre>
+<pre><a href="https://github.com/swfobject/swfobject/wiki/SWFObject-and-Apple's-iOS">swfobject iOS</a></pre>
+<h3>What do you want to build?</h3>
+<li><a href="https://developer.twitter.com/en/docs/basics/getting-started#ads">Target an audience and advertise on the Twitter network?</a></li>
+<li>Conduct historical research and <a href="https://developer.twitter.com/en/docs/basics/getting-started#historical">search from Twitter's massive archive of publicly-available Tweets</a> posted since March 2006?&nbsp;</li>
+<a href="https://developer.twitter.com/en/docs/basics/getting-started#embed">Integrate Tweets into your app or website?</a>&nbsp;&nbsp;</li>
+<li>Add the ability to <a href="https://developer.twitter.com/en/docs/basics/getting-started#post-message">post Tweets or send Direct Messages</a> from your app or website?</li>
+<li><a href="https://developer.twitter.com/en/docs/basics/getting-started#real-time">Listen in real-time for Tweets of interest?</a>&nbsp;</li>
+<li><a href="https://developer.twitter.com/en/docs/basics/getting-started#engagement">Measure how your Tweets or account are engaged with?</a></li>
+<pre><a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-javascript-factory-function">embedded twwets js factory</a></pre>
+<pre><a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference">embedded tweets param ref</a></pre>
+<pre><a href="tweet.html">my embedded</a></pre>
+<pre><a href="https://publish.twitter.com/">What would you like to embed?</a></pre>
+<pre><a href="https://ads.twitter.com/login">advertize on twitter</a></pre>
+<pre><a href="https://github.com/twitterdev/twitter-ruby-ads-sdk/">twitter ruby</a></pre>
+<pre><a href="https://twitter.com/lisalaposte/status/1151152645295476736">parcel uk</a>,<a href="https://www.parcelforce.com/">parcel</a></pre>
