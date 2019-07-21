@@ -16,32 +16,15 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <a href="page2.php">part 2</a>
 <pre><a href="pic.png">pic</a></pre> 
 <pre><a href="page3.html">a little front end to end the day...</a></pre>
-<pre><a href="http://inti.sourceforge.net/tutorial/libinti/autotoolsproject.html">doc 1 about aclocal, autoconf, and automake</a></pre>
-<pre><a href="https://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.69/autoconf.html#Generating-Sources">gnu docs about autoconf</a></pre>
-<pre><a href="https://www.gnu.org/software/libtool/manual/libtool.html">gnu docs for libtool</a></pre>
-<pre><a href="http://www-igm.univ-mlv.fr/~dr/XPOSE2000/Breugnot/">automake and autoconf</a></pre>
-<pre><a href="https://www.gnu.org/software/automake/manual/automake.html#Complete">beginning of the configure.ac file</a></pre>
-<pre><a href="https://www.gnu.org/software/automake/manual/automake.html#Requirements">end of the configure.ac file</a></pre>
-<pre><a href="https://www.gnu.org/software/libtool/manual/libtool.html#Invoking-libtoolize">Invoking libtoolize and libtoolize --force</a></pre>
-<pre><a href="ftp://gcc.gnu.org/pub/gcc/infrastructure/">download area for gcc infrastructure</a></pre>
-<pre><a href="https://gcc.gnu.org/install/prerequisites.html">prerequisites for gcc installation</a></pre>
-<pre><a href="https://www.gnu.org/software/automake/manual/html_node/Unified-Parallel-C-Support.html">automake docs article about an error message I've got "configure: error: no Unified Parallel C compiler was found"</a></pre>
-<pre><a href="https://www.urbandictionary.com/define.php?term=Open%20Beta">Open Beta<a>: The stage in video game or software development where the general public can play the game to find any last known bugs.</pre>
+<pre><a href="https://www.urbandictionary.com/define.php?term=Open%20Beta">Open Beta</a>: The stage in video game or software development where the general public can play the game to find any last known bugs.</pre>
 <pre><a href="package.json">package.json</a></pre>
 <pre><a href="https://html.spec.whatwg.org/multipage/parsing.html#unexpected-markup-in-tables">html standards unexpected markup in tables</a></pre>
 <table><b><tr><td>aaa</td></tr>bbb</table>ccc
-
-
 <pre><a href="https://forums.vandyke.com/showthread.php?t=921&page=2">ascii unicode line drawing</a></pre>
-
 <pre><a href="https://guides.cocoapods.org/using/getting-started.html">cocoapods install rubyggems</a></pre>
-
-
-
 <pre><a href="id_nm.png">id numerique</a></pre>
 <pre><a href="https://www.laposte.fr/lehub/76-secondes-pour-gagner-ou-perdre?r=z">marketing client</a></pre>
 <pre><a href="https://www.laposte.fr/lehub/Les-nouveaux-leviers-de-la?r=z">marketing</a></pre>
-
 <pre>pages or parts of code written in php are unknown</pre>
 <pre><a href="https://www.clever.fr/nos-references/autres-secteurs/la-poste-la-poste-communique-par-sms/">laposte envoie sms</a></pre>
 <pre><a href="pic6.png"></a></pre>
@@ -61,31 +44,6 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://www.laposte.fr/mon-timbre-en-ligne/personalisation/selectionner-categorie?categoryCode=National_Geographic">timbres</a></pre>
 <pre><a href="https://mobile.lapostemobile.fr/selection/nos-telephones-portables">telephones</a>
 <pre><a href="https://www.chronopost.fr/en/track-your-parcel">chronopost parcel</a></pre>
-
-
-<pre><a href="https://help.ubuntu.com/community/Java">java ubuntu documentation</a></pre>
-<pre>------------><a href="blind.html">click here</a> to try blind effect</pre>
-<pre><a href="openjdk.png">my installation javajdk</a></pre>
-<pre>create account at oracle to install java</a></pre>
-<pre>account at IBM</pre>
-<pre><a href="https://developer.android.com/studio/?gclid=EAIaIQobChMIv6Xi-YrB4wIVREPTCh03MgGiEAAYASAAEgKCGvD_BwE#downloads">android studio</a></pre>
-
-<pre><a href="https://github.com/uw-it-aca/spacescout-android/wiki/1.-Setting-Up-Android-Studio-on-Ubuntu">android studio ubuntu</a></pre>
-<pre><a href="https://doc.ubuntu-fr.org/android_sdk">app android ubuntu</a></pre>
-<pre><a href="https://www.linuxsysadmins.com/how-to-install-android-studio-on-ubuntu-lts/">java android</a></pre>
-<pre><a href="https://connectwww.com/how-to-install-android-studio-on-ubuntu/4363/">android studio ubuntu</a></pre>
-<pre><a href="https://forum.ubuntu-fr.org/viewtopic.php?id=2000914">openjdk 7 jre</a></pre>
-<pre><a href="https://doc.ubuntu-fr.org/openjdk">openjdk developer en java</a></pre>
-<pre><a href="https://developer.android.com/studio/archive.html">android studio archive</a></pre>
-<pre><a href="https://stackoverflow.com/questions/47464640/how-to-install-android-studio-on-ubuntu-32-bit-error-no-server-to-serve-request">no server</a>,<a href="https://forum.ubuntu-fr.org/viewtopic.php?id=2021641">ubuntu android</a>,<a href="https://developer.android.com/studio/install">install studio</a>,<a href="https://www.quora.com/How-do-I-install-Android-Studio-on-the-32-bit-Linux-OS">32 bit linux iOS</a>,<a href="https://ubuntuplace.info/questions/180/comment-installer-android-studio-sur-ubuntu">dependencies</a>,<a href="https://www.linuxbabe.com/ubuntu/install-android-studio-ubuntu-16-04">ubuntu</a>,<a href="https://linuxconfig.org/how-to-install-android-studio-on-ubuntu-16-04-xenial-xerus-linux">ubuntu</a>,<a href="https://askubuntu.com/questions/634082/how-to-install-android-studio-on-ubuntu">ubuntu</a>,<a href="https://gist.github.com/lirantal/736e06a4ba562887a075dfa7698d844d">i386</a>,<a href="https://sacha-k.github.io/2016/06/04/install-android-studio-on-ubuntu-16-04.html">ubuntu 16.04</a>,<a href="https://www.imarslan.com/how-to-install-android-studio-on-ubuntu-linux">ubuntu linux</a>,<a href="http://hinokiyo.hatenablog.com/entry/2017/05/21/Lubuntu_16.04_32bit_%E3%81%A7_AndroidStudio2.3.2%E3%82%92%E4%BD%BF%E3%81%86%E6%96%B9%E6%B3%95">16.04 32-bit</a></pre>
-<pre><a href="https://gradle.org/install/">gradle</a></pre>
-<pre><a href="https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux">vm</a></pre>
-<pre><a href="https://stackoverflow.com/questions/42733995/android-studio-error-an-error-occurred-while-trying-to-compute-required-package">android studio error</a></pre>
-<pre><a href="https://www.androidcentral.com/installing-android-sdk-windows-mac-and-linux-tutorial">android central</a></pre>
-<pre><a href="https://gamedev.stackexchange.com/questions/93209/how-would-i-find-the-sdk-folder-for-android-studio-so-i-can-build-my-unity-proje">sdk path</a>,<a href="https://github.com/ionic-team/ionic/issues/10604">sdk</a>,<a href="https://doc.ubuntu-fr.org/android_sdk">sdk</a>,<a href="https://stackoverflow.com/questions/25176594/android-sdk-location/39086736">sdk</a></pre>
-<pre><a href="gradle.png">gradle</a> https://services.gradle.org/distributions/gradle-5.1.1-all.zip</pre>
-
-
 <pre><a href="https://www.laposte.fr/digiposte/tous-mes-documents-partout-et-tout-le-temps">digiposte article</a>,<a href="https://www.deafi.com/mentions-legales/">deafi</a></pre>
 <pre><a href="https://hoodspot.fr/faq/">hoodspot</a>, filiere du groupe adverline</pre>
 
@@ -190,6 +148,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide?csw=1">tracking</a></pre>
 <!-- jquery -->
 <pre><a href="https://jqueryui.com/resources/download/jquery-ui-1.12.1.zip">jquery ui quick download stable release</a></pre>
+<pre>------------><a href="blind.html">click here</a> to try blind effect</pre>
 <pre><a href="https://jqueryui.com/download/">jquery ui custom download with download builder</a></pre>
 <pre><a href="https://api.jqueryui.com/blind-effect/">jquery ui blind effect script</a></pre>
 <pre><a href="https://api.jqueryui.com/category/effects/">jquery user interface effects category</a></pre>
@@ -238,7 +197,42 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html">include css, include js, set html, call the plugin, and the carousel is ready.</a>------------> <a href="owl.html">owl example page</a></pre>
 <pre><a href="https://owlcarousel2.github.io/OwlCarousel2/demos/lazyLoad.html">don't forget to fill in the javascript and the html of the carousel</a></pre>
 <!-- java -->
+<pre><a href="openjdk.png">my installation javajdk</a></pre>
+<pre><a href="https://help.ubuntu.com/community/Java">java ubuntu documentation</a></pre>
 <pre><a href="https://www.java.com/fr/download/help/linux_install.xml">Comment télécharger et installer Java 32 bits pour Linux ?</a></pre>
 <pre>Java et le navigateur chrome : <a href="https://www.java.com/fr/download/faq/chrome.xml">Chrome ne prend plus en charge NPAPI (technologie requise pour les applets Java)</a></pre>
 <!-- handlebars -->
 <pre><a href="https://handlebarsjs.com/">handle bars</a></pre>
+
+<!-- gcc gnu -->
+<pre><a href="http://inti.sourceforge.net/tutorial/libinti/autotoolsproject.html">doc 1 about aclocal, autoconf, and automake</a></pre>
+<pre><a href="https://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.69/autoconf.html#Generating-Sources">gnu docs about autoconf</a></pre>
+<pre><a href="https://www.gnu.org/software/libtool/manual/libtool.html">gnu docs for libtool</a></pre>
+<pre><a href="http://www-igm.univ-mlv.fr/~dr/XPOSE2000/Breugnot/">automake and autoconf</a></pre>
+<pre><a href="https://www.gnu.org/software/automake/manual/automake.html#Complete">beginning of the configure.ac file</a></pre>
+<pre><a href="https://www.gnu.org/software/automake/manual/automake.html#Requirements">end of the configure.ac file</a></pre>
+<pre><a href="https://www.gnu.org/software/libtool/manual/libtool.html#Invoking-libtoolize">Invoking libtoolize and libtoolize --force</a></pre>
+<pre><a href="ftp://gcc.gnu.org/pub/gcc/infrastructure/">download area for gcc infrastructure</a></pre>
+<pre><a href="https://gcc.gnu.org/install/prerequisites.html">prerequisites for gcc installation</a></pre>
+<pre><a href="https://www.gnu.org/software/automake/manual/html_node/Unified-Parallel-C-Support.html">automake docs article about an error message I've got "configure: error: no Unified Parallel C compiler was found"</a></pre>
+<!-- android -->
+<pre>create account at oracle to install java</a></pre>
+<pre>account at IBM</pre>
+<pre><a href="https://developer.android.com/studio/?gclid=EAIaIQobChMIv6Xi-YrB4wIVREPTCh03MgGiEAAYASAAEgKCGvD_BwE#downloads">android studio</a></pre>
+
+<pre><a href="https://github.com/uw-it-aca/spacescout-android/wiki/1.-Setting-Up-Android-Studio-on-Ubuntu">android studio ubuntu</a></pre>
+<pre><a href="https://doc.ubuntu-fr.org/android_sdk">app android ubuntu</a></pre>
+<pre><a href="https://www.linuxsysadmins.com/how-to-install-android-studio-on-ubuntu-lts/">java android</a></pre>
+<pre><a href="https://connectwww.com/how-to-install-android-studio-on-ubuntu/4363/">android studio ubuntu</a></pre>
+<pre><a href="https://forum.ubuntu-fr.org/viewtopic.php?id=2000914">openjdk 7 jre</a></pre>
+<pre><a href="https://doc.ubuntu-fr.org/openjdk">openjdk developer en java</a></pre>
+<pre><a href="https://developer.android.com/studio/archive.html">android studio archive</a></pre>
+<pre><a href="https://stackoverflow.com/questions/47464640/how-to-install-android-studio-on-ubuntu-32-bit-error-no-server-to-serve-request">no server</a>,<a href="https://forum.ubuntu-fr.org/viewtopic.php?id=2021641">ubuntu android</a>,<a href="https://developer.android.com/studio/install">install studio</a>,<a href="https://www.quora.com/How-do-I-install-Android-Studio-on-the-32-bit-Linux-OS">32 bit linux iOS</a>,<a href="https://ubuntuplace.info/questions/180/comment-installer-android-studio-sur-ubuntu">dependencies</a>,<a href="https://www.linuxbabe.com/ubuntu/install-android-studio-ubuntu-16-04">ubuntu</a>,<a href="https://linuxconfig.org/how-to-install-android-studio-on-ubuntu-16-04-xenial-xerus-linux">ubuntu</a>,<a href="https://askubuntu.com/questions/634082/how-to-install-android-studio-on-ubuntu">ubuntu</a>,<a href="https://gist.github.com/lirantal/736e06a4ba562887a075dfa7698d844d">i386</a>,<a href="https://sacha-k.github.io/2016/06/04/install-android-studio-on-ubuntu-16-04.html">ubuntu 16.04</a>,<a href="https://www.imarslan.com/how-to-install-android-studio-on-ubuntu-linux">ubuntu linux</a>,<a href="http://hinokiyo.hatenablog.com/entry/2017/05/21/Lubuntu_16.04_32bit_%E3%81%A7_AndroidStudio2.3.2%E3%82%92%E4%BD%BF%E3%81%86%E6%96%B9%E6%B3%95">16.04 32-bit</a></pre>
+<pre><a href="https://gradle.org/install/">gradle</a></pre>
+<pre><a href="https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux">vm</a></pre>
+<pre><a href="https://stackoverflow.com/questions/42733995/android-studio-error-an-error-occurred-while-trying-to-compute-required-package">android studio error</a></pre>
+<pre><a href="https://www.androidcentral.com/installing-android-sdk-windows-mac-and-linux-tutorial">android central</a></pre>
+<pre><a href="https://gamedev.stackexchange.com/questions/93209/how-would-i-find-the-sdk-folder-for-android-studio-so-i-can-build-my-unity-proje">sdk path</a>,<a href="https://github.com/ionic-team/ionic/issues/10604">sdk</a>,<a href="https://doc.ubuntu-fr.org/android_sdk">sdk</a>,<a href="https://stackoverflow.com/questions/25176594/android-sdk-location/39086736">sdk</a></pre>
+<pre><a href="gradle.png">gradle</a> https://services.gradle.org/distributions/gradle-5.1.1-all.zip</pre>
+
+
