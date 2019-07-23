@@ -172,7 +172,8 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://github.com/webpack-contrib/webpack-bundle-analyzer">webpack bundle analyzer</a></pre>
 <pre><a href="https://lodash.com/docs/4.17.14">lodash docs with source code and npm package installation</a></pre>
 <pre><a href="https://github.com/webpack/enhanced-resolve/releases/tag/v5.0.0-beta.0">download page for enhanced resolve webpack</a> go to assets(2) and choose tar gz or zip to decompress files</pre>
-<!-- windows server -->
+<!-- windows server azure-->
+<pre><a href="https://docs.microsoft.com/en-us/azure/#pivot=sdkstools">azure for developers</a></pre>
 <pre><a href="https://docs.microsoft.com/en-us/windows-server/">windows server documentation</pre>
 <pre><a href="https://docs.microsoft.com/fr-fr/windows-server/networking/core-network-guide/cncg/server-certs/install-the-web-server-web1">windows server web server</pre>
 <!-- heroku -->
