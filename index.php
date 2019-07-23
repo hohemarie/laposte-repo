@@ -235,4 +235,17 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://gamedev.stackexchange.com/questions/93209/how-would-i-find-the-sdk-folder-for-android-studio-so-i-can-build-my-unity-proje">sdk path</a>,<a href="https://github.com/ionic-team/ionic/issues/10604">sdk</a>,<a href="https://doc.ubuntu-fr.org/android_sdk">sdk</a>,<a href="https://stackoverflow.com/questions/25176594/android-sdk-location/39086736">sdk</a></pre>
 <pre><a href="gradle.png">gradle</a> https://services.gradle.org/distributions/gradle-5.1.1-all.zip</pre>
 
-
+<!-- useful docs -->
+<pre><a href="https://marketingplatform.google.com/about/tag-manager-360/features/">Main features of Google's Website Tagging Technologies</a></pre>
+<pre><a href="https://support.google.com/tagmanager/answer/6107124?hl=fr">google tag manager</a></pre>
+<pre><a href="https://developers.facebook.com">facebook developers</a></pre>
+<pre><a href="https://developer.twitter.com/en/docs/basics/getting-started#ads">twitter developers</a></pre>
+<pre><a href="https://developers.liveperson.com">liveperson</a></pre>
+<pre><a href="https://wiki.appnexus.com/display/industry/Welcome">introduction to online advertising, ad tech, and ad serving</a></pre>
+<pre><a href="https://github.com/swfobject/swfobject/wiki/SWFObject-API">swfobject</a></pre>
+<pre><a href="https://api.jqueryui.com/category/effects/">jquery ui</a>, <a href="https://github.com/jquery/jquery-migrate">jquery migrate</a></pre>
+<pre><a href="https://handlebarsjs.com/">handle bars</a></pre>
+<pre><a href="https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html">carousel</a></pre>
+<pre><a href="https://webpack.js.org/guides/getting-started/">webpack</a></pre>
+<pre><a href="https://docs.microsoft.com/en-us/windows-server/">windows server documentation</a></pre>
+<pre><a href="https://lodash.com/docs/4.17.14#map">lodash</a></pre>
