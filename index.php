@@ -12,7 +12,7 @@ $releasesoutput = shell_exec('heroku releases --app developer-test-1234569584789
 echo "<pre>$releasesoutput</pre>";
 echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format</pre>";
 ?>
-
+<a href="mypage.html">My Page</a>
 <a href="page2.php">part 2</a>
 <pre><a href="pic.png">pic</a></pre> 
 <pre><a href="page3.html">a little front end to end the day...</a></pre>
@@ -234,5 +234,4 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://www.androidcentral.com/installing-android-sdk-windows-mac-and-linux-tutorial">android central</a></pre>
 <pre><a href="https://gamedev.stackexchange.com/questions/93209/how-would-i-find-the-sdk-folder-for-android-studio-so-i-can-build-my-unity-proje">sdk path</a>,<a href="https://github.com/ionic-team/ionic/issues/10604">sdk</a>,<a href="https://doc.ubuntu-fr.org/android_sdk">sdk</a>,<a href="https://stackoverflow.com/questions/25176594/android-sdk-location/39086736">sdk</a></pre>
 <pre><a href="gradle.png">gradle</a> https://services.gradle.org/distributions/gradle-5.1.1-all.zip</pre>
-
-
+<pre><a href="https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/use-git-microsoft">how we use git at microsoft</a></pre>
