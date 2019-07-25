@@ -172,7 +172,8 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://github.com/webpack-contrib/webpack-bundle-analyzer">webpack bundle analyzer</a></pre>
 <pre><a href="https://lodash.com/docs/4.17.14">lodash docs with source code and npm package installation</a></pre>
 <pre><a href="https://github.com/webpack/enhanced-resolve/releases/tag/v5.0.0-beta.0">download page for enhanced resolve webpack</a> go to assets(2) and choose tar gz or zip to decompress files</pre>
-<!-- windows server -->
+<!-- windows server azure-->
+<pre><a href="https://docs.microsoft.com/en-us/azure/#pivot=sdkstools">azure for developers</a></pre>
 <pre><a href="https://docs.microsoft.com/en-us/windows-server/">windows server documentation</pre>
 <pre><a href="https://docs.microsoft.com/fr-fr/windows-server/networking/core-network-guide/cncg/server-certs/install-the-web-server-web1">windows server web server</pre>
 <!-- heroku -->
@@ -234,6 +235,26 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://www.androidcentral.com/installing-android-sdk-windows-mac-and-linux-tutorial">android central</a></pre>
 <pre><a href="https://gamedev.stackexchange.com/questions/93209/how-would-i-find-the-sdk-folder-for-android-studio-so-i-can-build-my-unity-proje">sdk path</a>,<a href="https://github.com/ionic-team/ionic/issues/10604">sdk</a>,<a href="https://doc.ubuntu-fr.org/android_sdk">sdk</a>,<a href="https://stackoverflow.com/questions/25176594/android-sdk-location/39086736">sdk</a></pre>
 <pre><a href="gradle.png">gradle</a> https://services.gradle.org/distributions/gradle-5.1.1-all.zip</pre>
+<<<<<<< HEAD
 <pre><a href="https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/use-git-microsoft">how we use git at microsoft</a></pre>
 <pre><a href="https://techsviewer.com/best-free-virtual-machine-software-2018/">free virtual machines</a></pre>
 <pre><a href="https://devcenter.heroku.com/articles/git#prerequisites-install-git-and-the-heroku-cli">deploy with git on heroku</a></pre>
+=======
+
+<!-- useful docs -->
+<pre><a href="https://marketingplatform.google.com/about/tag-manager-360/features/">Main features of Google's Website Tagging Technologies</a></pre>
+<pre><a href="https://support.google.com/tagmanager/answer/6107124?hl=fr">google tag manager</a></pre>
+<pre><a href="https://developers.facebook.com">facebook developers</a></pre>
+<pre><a href="https://developer.twitter.com/en/docs/basics/getting-started#ads">twitter developers</a></pre>
+<pre><a href="https://developers.liveperson.com">liveperson</a></pre>
+<pre><a href="https://wiki.appnexus.com/display/industry/Welcome">introduction to online advertising, ad tech, and ad serving</a></pre>
+<pre><a href="https://github.com/swfobject/swfobject/wiki/SWFObject-API">swfobject</a></pre>
+<pre><a href="https://api.jqueryui.com/category/effects/">jquery ui</a>, <a href="https://github.com/jquery/jquery-migrate">jquery migrate</a></pre>
+<pre><a href="https://handlebarsjs.com/">handle bars</a></pre>
+<pre><a href="https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html">carousel</a></pre>
+<pre><a href="https://webpack.js.org/guides/getting-started/">webpack</a></pre>
+<pre><a href="https://docs.microsoft.com/en-us/windows-server/">windows server documentation</a></pre>
+<pre><a href="https://lodash.com/docs/4.17.14#map">lodash</a></pre>
+<pre><a href="https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/use-git-microsoft">devops</a></pre>
+<pre><a href="https://techsviewer.com/best-free-virtual-machine-software-2018/">virtual machines</a></pre>
+<pre><a href="https://phoenixnap.com/kb/what-is-hypervisor-type-1-2">vm</a>,<a href="https://www.oracle.com/virtualization/">vm</a>,<a href="https://www.proxmox.com/en/">vm</a>,<a href="https://blog.storagecraft.com/battle-of-free-virtualization-tools-vmware-vs-virtualbox/">vm</a>,<a href="https://financesonline.com/virtual-desktop-infrastructure/">vm</a>,<a href="https://www.softwaretestinghelp.com/virtualization-software/">vm</a>,<a href="https://www.businessnewsdaily.com/5993-virtualization-solutions.html">vm</a>,<a href="https://www.vmware.com/products/desktop-virtualization.html">vm</a>,<a href="https://www.trustradius.com/server-virtualization">,<a href="https://www.g2.com/categories/server-virtualization">vm</a>,<a href="https://www.itprotoday.com/server-virtualization/free-virtualization-products">vm</a>,<a href="https://www.vmware.com/support/ws5/doc/ws_net.html">vm</a>,<a href="https://www.computerworld.com/article/2540754/battle-of-the-free-server-virtualization-tools.html">vm</a>,<a href="https://learn.g2.com/free-database-software">sql</a>, <a href="https://blog.capterra.com/free-database-software/">database software</a>,<a href="https://www.digitaltrends.com/mobile/maximize-free-cloud-storage/">cloud storage</a>,<a href="https://www.thesimpledollar.com/best-small-business-apps/">business apps</a></pre>
