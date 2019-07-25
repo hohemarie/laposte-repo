@@ -12,7 +12,7 @@ $releasesoutput = shell_exec('heroku releases --app developer-test-1234569584789
 echo "<pre>$releasesoutput</pre>";
 echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format</pre>";
 ?>
-
+<a href="mypage.html">My Page</a>
 <a href="page2.php">part 2</a>
 <pre><a href="pic.png">pic</a></pre> 
 <pre><a href="page3.html">a little front end to end the day...</a></pre>
@@ -236,6 +236,11 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://www.androidcentral.com/installing-android-sdk-windows-mac-and-linux-tutorial">android central</a></pre>
 <pre><a href="https://gamedev.stackexchange.com/questions/93209/how-would-i-find-the-sdk-folder-for-android-studio-so-i-can-build-my-unity-proje">sdk path</a>,<a href="https://github.com/ionic-team/ionic/issues/10604">sdk</a>,<a href="https://doc.ubuntu-fr.org/android_sdk">sdk</a>,<a href="https://stackoverflow.com/questions/25176594/android-sdk-location/39086736">sdk</a></pre>
 <pre><a href="gradle.png">gradle</a> https://services.gradle.org/distributions/gradle-5.1.1-all.zip</pre>
+<<<<<<< HEAD
+<pre><a href="https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/use-git-microsoft">how we use git at microsoft</a></pre>
+<pre><a href="https://techsviewer.com/best-free-virtual-machine-software-2018/">free virtual machines</a></pre>
+<pre><a href="https://devcenter.heroku.com/articles/git#prerequisites-install-git-and-the-heroku-cli">deploy with git on heroku</a></pre>
+=======
 
 <!-- useful docs -->
 <pre><a href="https://marketingplatform.google.com/about/tag-manager-360/features/">Main features of Google's Website Tagging Technologies</a></pre>
@@ -252,3 +257,7 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://docs.microsoft.com/en-us/windows-server/">windows server documentation</a></pre>
 <pre><a href="https://lodash.com/docs/4.17.14#map">lodash</a></pre>
 <pre><a href="https://linux.developpez.com/actu/266730/Canonical-annonce-que-l-architecture-i386-sera-abandonnee-a-partir-de-la-version-19-10-d-Ubuntu-sa-distribution-Linux/">i386</a></pre>
+<pre><a href="https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/use-git-microsoft">devops</a></pre>
+<pre><a href="https://techsviewer.com/best-free-virtual-machine-software-2018/">virtual machines</a></pre>
+<pre><a href="https://phoenixnap.com/kb/what-is-hypervisor-type-1-2">vm</a>,<a href="https://www.oracle.com/virtualization/">vm</a>,<a href="https://www.proxmox.com/en/">vm</a>,<a href="https://blog.storagecraft.com/battle-of-free-virtualization-tools-vmware-vs-virtualbox/">vm</a>,<a href="https://financesonline.com/virtual-desktop-infrastructure/">vm</a>,<a href="https://www.softwaretestinghelp.com/virtualization-software/">vm</a>,<a href="https://www.businessnewsdaily.com/5993-virtualization-solutions.html">vm</a>,<a href="https://www.vmware.com/products/desktop-virtualization.html">vm</a>,<a href="https://www.trustradius.com/server-virtualization">,<a href="https://www.g2.com/categories/server-virtualization">vm</a>,<a href="https://www.itprotoday.com/server-virtualization/free-virtualization-products">vm</a>,<a href="https://www.vmware.com/support/ws5/doc/ws_net.html">vm</a>,<a href="https://www.computerworld.com/article/2540754/battle-of-the-free-server-virtualization-tools.html">vm</a>,<a href="https://learn.g2.com/free-database-software">sql</a>, <a href="https://blog.capterra.com/free-database-software/">database software</a>,<a href="https://www.digitaltrends.com/mobile/maximize-free-cloud-storage/">cloud storage</a>,<a href="https://www.thesimpledollar.com/best-small-business-apps/">business apps</a>,<a href="https://www.predictiveanalyticstoday.com/top-multi-model-databases/">multi model db</a>,<a href="https://www.slant.co/topics/12693/~multi-model-databases">multi model db</a>,<a href="https://dzone.com/articles/modeling-data-using-a-multi-model-database">multi model db</a>,<a href="https://www.oreilly.com/ideas/rapid-data-production-with-a-multi-model-database">multi model db</a>,<a href="https://www.zdnet.com/article/the-new-era-of-the-multi-model-database/">multi model db</a>,<a href="https://www.marklogic.com/blog/multi-model-database/">multi model db</a>,<a href="https://www.otava.com/reference/how-to-use-azure-resource-groups-a-simple-explanation/">azure resourceful group</a>,<a href="https://geekflare.com/open-source-load-balancer/">load balancer</a>,<a href="https://azure.microsoft.com/en-us/blog/making-it-easier-to-bring-your-linux-based-web-apps-to-azure-app-service/">IaaS, PaaS, SaaS</a></pre>
+
