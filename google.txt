@@ -496,3 +496,4 @@ With the Azure mobile app, you don't need to be in front of your computer to kee
 Diagnose and fix issues quickly
 Check for alerts, view metrics, and take corrective actions to fix common issues. Restart a web app or connect to a VM directly.
 
+Create highly available VMs command file -azure
