@@ -207,3 +207,292 @@ Manage thousands of devices with IoT Hub
 
 Big data streaming
 Use Event hub to collect billions of data points
+Create an application using .NET with Azure SQL DB or Node.js with MongoDB
+Map an existing custom domain to your application
+Bind an existing SSL certificate to your application
+Add a CDN to your application
+Build your skills with Microsoft Learn
+
+Host a web application with Azure App service
+build and host web apps, mobile back ends, and RESTful APIs in the programming language of your choice without managing infrastructure
+deploy a data-driven ASP.NET app in App Service and connect it to Azure SQL Database
+Create a SQL Database in Azure
+Connect an ASP.NET app to SQL Database
+Deploy the app to Azure
+Update the data model and redeploy the app
+Stream logs from Azure to your terminal
+Manage the app in the Azure portal
+create a Node.js app in App Service and connect it to a MongoDB database. When you're done, you'll have a MEAN application (MongoDB, Express, AngularJS, and Node.js) running in Azure App Service. 
+ how to map an existing custom DNS name to Azure App Service.
+
+how to:
+
+Map a subdomain (for example, www.contoso.com) by using a CNAME record
+Map a root domain (for example, contoso.com) by using an A record
+Map a wildcard domain (for example, *.contoso.com) by using a CNAME record
+Redirect the default URL to a custom directory
+Automate domain mapping with scripts
+This tutorial shows you how to secure a custom domain in App Service with a certificate that you purchased from a trusted certificate authority. It also shows you how to upload any private and public certificates your app needs. When you're finished, you'll be able to access your app at the HTTPS endpoint of your custom DNS domain.
+how to add Azure Content Delivery Network (CDN) to a web app in Azure App Service. Web apps is a service for hosting web applications, REST APIs, and mobile back ends.
+
+Here's the home page of the sample static HTML site that you'll work with:
+
+Sample app home page
+
+What you'll learn:
+
+Create a CDN endpoint.
+Refresh cached assets.
+Use query strings to control cached versions.
+Learn how to build and manage Azure Functions:
+
+Create a function that integrates with Azure Logic Apps
+Create a serverless API using Azure Functions
+Create an OpenAPI definition for a function
+Automate resizing uploaded images using Event Grid
+Create a serverless web app to store pictures with metadata
+Create serverless logic with Azure Functions
+
+Execute an Azure Function with triggers
+
+Chain Azure Functions and data together using Input and Output bindings
+deploying and managing container apps with Azure tools and services for containers.
+
+5-Minute Quickstarts
+Learn how to use containers with Azure services.
+
+
+Create a Kubernetes cluster with Azure Kubernetes Service (AKS)
+
+Deploy a Windows container application with Service Fabric
+
+Create a containerized app with Azure Web App for Containers
+
+Create a private Docker registry in Azure Container Registry
+
+Run a container app on-demand in Azure Container Instances
+Step-by-Step Tutorials
+Learn how to deploy, manage, and update container apps using Azure services
+
+Build and deploy a container to Azure Kubernetes Service
+Build and deploy a .NET container app to Azure Service Fabric
+Create a multi-container app in Web App for Containers
+Build and deploy container images with Azure Container Registry Tasks
+Build and deploy a container to Azure Container Instances
+Create an Azure Red Hat OpenShift cluster
+Build your skills with Microsoft Learn
+
+Run Docker containers with Azure Container Instances
+
+Build and store container images with Azure Container Registry
+
+Fully managed
+PaaS database that is always running on the latest stable version of SQL Server Database Engine and patched OS with 99.99% availability.
+
+
+Price/service tiers
+Tailor price/performance ratio to your needs with flexible service tiers that span from affordable $5/month to powerful 80-core databases.
+
+
+Scalability
+Easily scale up, scale out, or shard your databases depending on your needs to improve performance of your application.
+
+
+Single database
+Use the single database managed by a SQL Database server for your SaaS applications and microservices that need a single database with the predictable performances.
+
+
+Elastic pools
+SQL Database elastic pools are a simple, cost-effective solution for managing and scaling multiple databases that have varying and unpredictable usage demands.
+
+
+Managed instance
+Use the Managed Instance to get a fully managed SQL Server Database Engine Instance hosted in Azure cloud, with minimal or no database code changes needed for migration from on-premises databases.
+
+
+Platform as a Service
+Built-in High-availability, automated backups, and geo-replication, will prevent maintenance operations, infrastructure or hardware failures from stopping your business.
+
+
+Advanced security
+Secure your database with Azure AD authentication, Virtual Networks, Firewalls, Always Encrypted connections. Identify threats and vulnerabilities with built-in security.
+
+
+Monitoring and tuning
+Built-in monitoring and intelligent tuning help you dramatically reduce the costs of running and managing databases and maximizes performance of your application.
+SQL Server on Azure Virtual Machines
+how to use an Azure SQL Data Warehouse, which combines SQL relational databases with massively parallel processing. Tutorials and other documentation shows you how to design, load, manage, and analyze data using a data warehouse.
+
+ 
+Learn about Azure SQL Data Warehouse
+ 
+Azure SQL Data Warehouse Video Library
+ 
+Get started creating a SQL Data Warehouse using the Azure Portal
+relational database service based on the open-source Postgres database engine
+For Single Server:
+
+Design a Database: Azure portal | Azure CLI
+Build a Web App using Python and the CLI
+Monitor and tune the service
+For Hyperscale (Citus) (preview):
+
+Design a multi-tenant database
+Design a real-time database
+Build your skills with Microsoft Learn
+
+Create an Azure Database for PostgreSQL server
+
+Concepts
+Learn about global distribution, partitioning, provisioned throughput, indexing, and other concepts that apply to all of the Azure Cosmos DB APIs.
+
+
+SQL API
+Use the SQL API if you're building a new non-relational document database and want to query using familiar SQL syntax.
+
+
+Gremlin API
+Use the Gremlin API if you're building a graph database to model and traverse relationships among entities.
+
+
+Azure Cosmos DB's API for MongoDB
+Use the Azure Cosmos DB's API for MongoDB if you are migrating data from a MongoDB database to Azure Cosmos DB's fully managed service.
+
+
+Cassandra API
+Use the Cassandra API if you are migrating data from Cassandra to Azure Cosmos DB's fully managed service.
+
+
+Table API
+Use the Table API if you are migrating data from Azure Table storage to Azure Cosmos DB's premium table offering.
+
+
+Built-in analytics with Apache Spark
+Use the built-in support for Apache Spark to run analytics on the data stored in an Azure Cosmos account.
+
+
+Change feed
+Perform real-time analytics with change feed by reading the sorted list of documents within an Azure Cosmos DB container in the order in which they were modified.
+
+
+Etcd API
+The Etcd API allows you to use Azure Cosmos DB as the backend store for Azure Kubernetes.
+Develop an app with Azure Cosmos DB: SQL | MongoDB | Table | Gremlin | Cassandra
+Migrate data to Azure Cosmos DB: SQL | MongoDB | Table | Cassandra
+Query data with Azure Cosmos DB: SQL | MongoDB | Table | Gremlin
+Global database replication with Azure Cosmos DB: SQL | MongoDB | Table
+Develop your application locally using the emulator
+Create an HTTP Trigger with an Azure Cosmos DB input binding
+ Create an Azure Cosmos database built to scale
+
+Insert and query data in your Azure Cosmos database
+
+Build a .NET Core app for Azure Cosmos DB in Visual Studio Code
+Blobs
+Upload and process image data in the cloud
+
+Upload and retrieve image data in the cloud
+Trigger Azure Functions to process blobs
+Secure application data
+Monitor and troubleshoot storage
+Design your application for high availability
+
+Make your application data highly available
+Simulate a failure in accessing read-access redundant storage
+Search unstructured data in Azure Storage
+
+Data Lake Storage Gen2
+Extract, transform, and load data using Azure Databricks
+
+Access Azure Data Lake Storage Gen2 data with DataBricks using Spark
+
+Extract, transform, and load data using Apache Hive on Azure HDInsight
+Introduction to data in Azure
+
+ Choose a data storage approach in Azure
+
+Create an Azure storage account
+Quickstarts:
+
+Run an experiment in the cloud (no install required)
+Run an experiment using a local notebook server (local SDK install)
+Run an experiment in the visual interface (code-free)
+Tutorial: Image classification of MNIST data with SDK:
+
+Part 1: Train your own model
+Part 2: Deploy that model
+Tutorial: Predict taxi trip fare using SDK:
+
+Part 1: Prepare data for modeling
+Part 2: Let automated ML train models for you
+Tutorial: Predict automobile price using visual interface:
+
+Part 1: Predict automobile price
+Part 2: Deploy the regression model
+Consume your models:
+
+Request-response model consumption
+Batch predictions with ML pipelines
+
+Cognitive Services
+APIs that supply intelligent algorithms for your apps, websites, and bots.
+
+
+Azure Machine Learning Studio
+A collaborative, drag-and-drop tool to build, test, and deploy predictive analytics solutions on your data with R or Python. 
+
+
+SQL Server Machine Learning Services
+In-database analytics with support for both R and Python.
+
+
+Microsoft Machine Learning Server
+Flexible enterprise machine learning platform, supporting R and Python deployments on Windows, Linux, and HDInsight Spark and Hadoop clusters.
+
+
+Team Data Science Process
+A collaborative data science methodology that helps teams deliver predictive analytics solutions and intelligent applications efficiently.
+
+Step-by-step Tutorials
+Blobs
+Upload and process image data in the cloud
+
+Upload and retrieve image data in the cloud
+Trigger Azure Functions to process blobs
+Secure application data
+Monitor and troubleshoot storage
+Design your application for high availability
+
+Make your application data highly available
+Simulate a failure in accessing read-access redundant storage
+Search unstructured data in Azure Storage
+
+Data Lake Storage Gen2
+Extract, transform, and load data using Azure Databricks
+
+Access Azure Data Lake Storage Gen2 data with DataBricks using Spark
+
+Extract, transform, and load data using Apache Hive on Azure HDInsight
+
+Samples
+Find scripts for common management tasks.
+
+.NET : Blobs | Files | Queues
+Java : Blobs | Files | Queues
+
+Introduction to data in Azure
+
+ Choose a data storage approach in Azure
+
+Create an Azure storage account
+Get started	Build your skills with Microsoft Learn	Contact Us
+Get Started with the Azure CLI	Manage virtual machines with the Azure CLI	Request features
+Deploy a web application from GitHub	Control Azure services with the CLI	Get help on StackOverflow
+Create a Postgres database	Connect an application to Azure Storage	Report issues
+Create a Kubernetes cluster	More interactive learning...	
+Create a virtual machine	
+Track the health and status of your Azure resources
+With the Azure mobile app, you don't need to be in front of your computer to keep an eye on your Azure resources such as VMs and web apps.
+Diagnose and fix issues quickly
+Check for alerts, view metrics, and take corrective actions to fix common issues. Restart a web app or connect to a VM directly.
+ 
