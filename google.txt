@@ -1,0 +1,209 @@
+virtual machines public cloud
+databases
+mobile
+networking
+storage
+web
+Create and manage Linux VMs
+Create and manage VM disks
+Automate VM configuration
+Create custom VM images
+Create highly available VMs
+Create a VM scale set
+Load balance VMs
+Manage VMs and virtual networks
+Backup VMs
+Govern VMs
+Monitor and update VMs
+Manage security on VMs
+Create a CI/CD infrastructure with Jenkins, Docker, and GitHub
+CI/CD with Azure Pipelines
+Create a web server stack with LAMP, LEMP, or MEAN
+Secure a web server with SSL
+Create a blueprint definition -azure
+Create artifacts on a blueprint definition
+Microsoft.Blueprint/blueprints/versions/write - Publish a blueprint
+To delete blueprints, your account needs the following permissions:
+
+Microsoft.Blueprint/blueprints/delete
+Microsoft.Blueprint/blueprints/artifacts/delete
+Microsoft.Blueprint/blueprints/versions/delete
+Microsoft.Blueprint/blueprintAssignments/write - Assign a blueprint
+Microsoft.Blueprint/blueprintAssignments/delete - Unassign a blueprint
+Create a PHP web app in
+
+Get Started
+Deploy your first web app to Azure
+
+
+Spring on Azure
+Azure services with Spring Boot
+
+
+IntelliJ, Maven, Eclipse, and VS Code plugins
+Tools and IDEs
+
+
+Supported JDKs
+Supported JDKs
+
+
+Azure SDKs for Java
+API Reference
+
+Get started guides
+
+Deploy a Spring Boot app with Maven
+
+Upload and download blobs from Storage
+
+Create a Java serverless function
+
+Deploy to Kubernetes
+
+Microservices with Service Fabric
+
+CI/CD to App Service with Jenkins®
+Samples
+Create a Spring Boot app with Linux and Cosmos DB
+Azure Blob Storage with Java
+Connect to Cosmos DB with the SQL API
+Java microservices with Service Fabric
+Azure for JavaScript & Node.js cloud developers
+
+Deploy your first Node.js sample app
+Deploy your first app in a free sandbox environment on Azure App Service
+
+Choose the right scalable hosting for your app
+
+Static Web Apps, SPAs and Progressive Web Apps
+Deploy static apps built with frameworks like React, Angular, and Vue on Azure Storage
+
+
+Full-stack Node.js-powered Web Apps and APIs
+Deploy full-stack node.js web apps and APIs built with frameworks like Express on Azure App Service
+
+
+Containerized Apps and Microservices with Docker
+Deploy containerized apps and microservices using Docker containers on Azure App Service
+
+
+Serverless Apps and APIs
+Deploy serverless apps and APIs written in JavaScript on Azure Functions
+
+Azure SDK for Node.js
+
+Reference
+Complete reference docs for the Azure SDK
+
+
+SDK Samples
+Sample GitHub repos for the Azure SDK
+
+Continuous Deployment and DevOps
+
+Azure DevOps Projects
+Build and deploy apps from your Azure DevOps Project
+
+
+GitHub Actions
+Build and deploy apps to Azure from GitHub Actions
+
+
+Continuous Integration
+Add Jenkins, CircleCI, or Travis to manage builds
+
+Find and fix bugs with debugging and diagnostic tools
+
+Remote debugging for Azure App Service
+Attach a debugger to your test or production apps on Azure App Service
+
+
+Log Points in VS Code for Azure App Service
+Add log statements to Azure App Service apps without redeploying from VS Code
+
+
+Debug local Node.js apps in VS Code
+Automatically attach the debugger to running processes
+
+Tools and extensions
+
+Visual Studio Code
+Use Azure directly from Visual Studio Code through extensions
+
+
+Azure CLI 2.0
+Manage Azure resources from the command line
+
+Store and manage data in files or databases
+
+File Storage
+Store files securely in cloud storage
+
+
+MongoDB
+Use MongoDB and CosmosDB in your apps
+
+
+Redis Cache
+Read and write data to a Redis in-memory data store
+
+
+PostgreSQL
+Create and manage a cloud Postgres database
+
+
+MySQL
+Create and manage a cloud MySQL database
+
+
+Azure SQL Database
+Create and manage a cloud SQL database
+
+Secure apps and resources with authentication and authorization
+
+Active Directory
+Authenticate users with Passport strategies
+
+
+Key Vault
+Securely store API keys and secrets in your apps
+
+
+Active Directory B2C
+Use Passport and Azure AD to add sign-in to Facebook, Twitter, or GitHub to your web app
+
+Monitoring resource health and detect issues in your apps
+
+Application Insights
+Monitor requests and identify errors in your application
+
+
+Log Analytics
+Review data about your environment in a single location
+
+
+Azure Monitor
+Get detailed performance and utilization data
+
+Manage and connect devices and apps with messaging
+
+Event Grid
+Use HTTP-based event delivery to eliminate polling
+
+
+Service Bus
+Employ highly reliable messaging across services
+
+
+Queue storage
+Use queues for highly scalable messaging
+
+IoT
+
+Connect and manage IoT devices
+Manage thousands of devices with IoT Hub
+
+
+Big data streaming
+Use Event hub to collect billions of data points
