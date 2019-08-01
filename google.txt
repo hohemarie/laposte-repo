@@ -505,4 +505,5 @@ Create and manage Linux VMs command file script run -azure
 Create and manage Linux VMs command file script run -azure guest host
 
 node.js php nginx mysql
+Linux, nginx, MySQL, PHP (LEMP) ubuntu
 
