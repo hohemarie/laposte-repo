@@ -497,3 +497,11 @@ Diagnose and fix issues quickly
 Check for alerts, view metrics, and take corrective actions to fix common issues. Restart a web app or connect to a VM directly.
 
 (linux) Create highly available VMs command file -azure
+Create and manage Linux VMs file script -azure shell cli
+Create and manage Linux VMs command file script -azure shell
+Create and manage Linux VMs command file script -azure shell run folder
+Create and manage Linux VMs command file script -azure shell run
+Create and manage Linux VMs command file script run -azure
+Create and manage Linux VMs command file script run -azure guest host
+
+
