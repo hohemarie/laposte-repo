@@ -276,3 +276,4 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://www.easypartner.fr/blog/node-js-vs-php-qui-aura-le-trone/">php</a><a href="https://www.digitalocean.com/community/questions/running-both-php-and-node-js-on-nginx-on-the-same-server">php</a>,<a href="https://www.supinfo.com/articles/single/5509-apache-vs-nginx">php</a></pre>
 <pre><a href="https://www.howtoforge.com/tutorial/how-to-install-nginx-with-php-and-mysql-lemp-on-ubuntu-1804/">lemp</a>,<a href="https://doc.ubuntu-fr.org/nginx">lemp</a>,<a href="https://www.it-connect.fr/installer-un-serveur-lemp-linux-enginex-mysql-php%ef%bb%bf/">lemp</a></pre>
 <pre><a href="https://coolestguidesontheplanet.com/how-to-connect-to-a-mysql-database-with-php/">php mysql queries</a></pre>
+<pre>http://api.comparateur.laposte.fr/ (google)</pre>
