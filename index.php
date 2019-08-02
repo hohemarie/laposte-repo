@@ -278,3 +278,4 @@ echo "<pre>my 10 latest heroku releases in<a href='releases.php'>json</a> format
 <pre><a href="https://coolestguidesontheplanet.com/how-to-connect-to-a-mysql-database-with-php/">php mysql queries</a></pre>
 <pre>http://api.comparateur.laposte.fr/ (google)</pre>
 <pre><a href="https://tradelab.com/en/home/">iadvize / tradelab</a></pre>
+<pre> <iframe width="420" height="315" src="https://www.youtube.com/watch?v=Im-cS-W9k7s"></iframe> </pre>
